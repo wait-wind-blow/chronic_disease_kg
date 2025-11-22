@@ -1,0 +1,4 @@
+requests
+biopython
+pandas
+python-dotenv

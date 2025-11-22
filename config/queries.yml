@@ -1,0 +1,30 @@
+("Diabetes Mellitus, Type 2"[MeSH Terms] OR "type 2 diabetes"[Title/Abstract])
+AND
+(diet[Title/Abstract] OR nutrition[Title/Abstract] OR "medical nutrition therapy"[Title/Abstract] OR lifestyle[Title/Abstract])
+AND
+(humans[MeSH Terms])
+AND
+("2015"[PDAT] : "3000"[PDAT])
+("Cardiovascular Diseases"[MeSH Terms] OR cardiovascular[Title/Abstract] OR "coronary heart disease"[Title/Abstract] OR "myocardial infarction"[Title/Abstract] OR stroke[Title/Abstract] OR hypertension[Title/Abstract])
+AND
+(diet[Title/Abstract] OR nutrition[Title/Abstract] OR "physical activity"[Title/Abstract] OR exercise[Title/Abstract] OR obesity[Title/Abstract])
+AND
+(humans[MeSH Terms])
+AND
+("2015"[PDAT] : "3000"[PDAT])
+("Pulmonary Disease, Chronic Obstructive"[MeSH Terms] OR COPD[Title/Abstract] OR Asthma[Title/Abstract])
+AND
+(smoking[Title/Abstract] OR "air pollution"[Title/Abstract] OR diet[Title/Abstract] OR obesity[Title/Abstract])
+AND
+(humans[MeSH Terms])
+AND
+("2015"[PDAT] : "3000"[PDAT])
+(("Colorectal Neoplasms"[MeSH Terms] OR "colorectal cancer"[Title/Abstract])
+ OR
+ ("Breast Neoplasms"[MeSH Terms] OR "breast cancer"[Title/Abstract]))
+AND
+(diet[Title/Abstract] OR "red meat"[Title/Abstract] OR "processed meat"[Title/Abstract] OR "whole grain"[Title/Abstract] OR "physical activity"[Title/Abstract] OR obesity[Title/Abstract])
+AND
+(humans[MeSH Terms])
+AND
+("2015"[PDAT] : "3000"[PDAT])

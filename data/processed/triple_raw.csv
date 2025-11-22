@@ -1,0 +1,30 @@
+segment_id,pmid,disease_group,head_text,relation,tail_text,confidence,model,source
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,Cancer,0.9,qwen3:8b,pubmed
+cancer_35057525,35057525,cancer,Cancer,Cause,Overall survival,0.8,qwen3:8b,pubmed
+cancer_35057525,35057525,cancer,Breast cancer,Cause,Overall survival,0.8,qwen3:8b,pubmed
+cancer_35057525,35057525,cancer,Colorectal cancer,Cause,Overall survival,0.8,qwen3:8b,pubmed
+cancer_33518157,33518157,cancer,Colorectal Cancer,Cause,diet,0.8,qwen3:8b,pubmed
+cancer_33518157,33518157,cancer,diet,Prevent,Colorectal Cancer,0.8,qwen3:8b,pubmed
+cancer_37929890,37929890,cancer,Breast cancer,Cause,weight gain,0.9,qwen3:8b,pubmed
+cancer_37929890,37929890,cancer,Breast cancer,Cause,adipose tissue,0.9,qwen3:8b,pubmed
+cancer_31586566,31586566,cancer,Colorectal Cancer,Cause,Gut Microbiome,0.8,qwen3:8b,pubmed
+cancer_31586566,31586566,cancer,Colorectal Cancer,Cause,Diet,0.8,qwen3:8b,pubmed
+cancer_28935150,28935150,cancer,Colorectal cancer,Cause,Western society,0.8,qwen3:8b,pubmed
+cancer_28935150,28935150,cancer,Colorectal cancer,Cause,red and processed meat,0.8,qwen3:8b,pubmed
+cancer_28935150,28935150,cancer,Mediterranean diet,Cause,decreased overall cancer mortality,0.7,qwen3:8b,pubmed
+cancer_33401525,33401525,cancer,diet,Cause,Colorectal cancer,0.9,qwen3:8b,pubmed
+cancer_33401525,33401525,cancer,Western diet,Cause,Colorectal cancer,0.9,qwen3:8b,pubmed
+cancer_27510511,27510511,cancer,physical activity,Negative_associated,breast cancer,0.9,qwen3:8b,pubmed
+cancer_27510511,27510511,cancer,physical activity,Negative_associated,colon cancer,0.9,qwen3:8b,pubmed
+cancer_27510511,27510511,cancer,physical activity,Negative_associated,diabetes,0.9,qwen3:8b,pubmed
+cancer_35000418,35000418,cancer,Colorectal cancer,Cause,ulcerative colitis,0.95,qwen3:8b,pubmed
+cancer_35000418,35000418,cancer,Colorectal cancer,Positive_associated,obesity,0.95,qwen3:8b,pubmed
+cancer_35000418,35000418,cancer,Colorectal cancer,Positive_associated,low physical activity,0.99,qwen3:8b,pubmed
+cancer_28205448,28205448,cancer,red meat consumption,Cause,colorectal cancer,0.9,qwen3:8b,pubmed
+cancer_33462452,33462452,cancer,γδ T cell,Associated,interferon-γ,0.8,qwen3:8b,pubmed
+cancer_40210826,40210826,cancer,red meat,Cause,colorectal cancer,0.95,qwen3:8b,pubmed
+cancer_40210826,40210826,cancer,red meat,Cause,colon cancer,0.95,qwen3:8b,pubmed
+cancer_40210826,40210826,cancer,red meat,Cause,rectal cancer,0.95,qwen3:8b,pubmed
+cancer_40210826,40210826,cancer,processed meat,Cause,colorectal cancer,0.95,qwen3:8b,pubmed
+cancer_37621241,37621241,cancer,Obesity,Cause,Colorectal Cancer,0.9,qwen3:8b,pubmed
+cancer_37621241,37621241,cancer,Obesity,Cause,Recurrence,0.8,qwen3:8b,pubmed

@@ -1,0 +1,270 @@
+id,name,zh_name,type,source
+D00001,Colorectal cancer,,Disease,pubmed
+D00002,adenomatous polyps,,Disease,pubmed
+D00003,serrated polyps,,Disease,pubmed
+F00001,age,,Factor,pubmed
+F00002,male sex,,Factor,pubmed
+F00003,family history,,Factor,pubmed
+F00004,obesity,,Factor,pubmed
+F00005,physical inactivity,,Factor,pubmed
+F00006,red meat intake,,Factor,pubmed
+F00007,white race,,Factor,pubmed
+F00008,tobacco use,,Factor,pubmed
+F00009,alcohol use,,Factor,pubmed
+F00010,abdominopelvic radiation,,Factor,pubmed
+D00004,acromegaly,,Disease,pubmed
+D00005,hereditary hemochromatosis,,Disease,pubmed
+F00011,Physical activity,,Factor,pubmed
+D00006,Cancer,,Disease,pubmed
+D00007,Breast cancer,,Disease,pubmed
+D00008,Colon cancer,,Disease,pubmed
+D00009,Lung cancer,,Disease,pubmed
+D00010,Gastric cancer,,Disease,pubmed
+D00011,Liver cancer,,Disease,pubmed
+F00012,Global Burden of Disease Study 2019,,Factor,pubmed
+F00013,PubMed,,Factor,pubmed
+F00014,Embase,,Factor,pubmed
+F00015,US National Health and Nutrition Examination Surveys (NHANES),,Factor,pubmed
+F00016,Global Burden of Disease 2019 database,,Factor,pubmed
+D00012,Prostate cancer,,Disease,pubmed
+F00017,Mediterranean diet,,Factor,pubmed
+F00018,Diet quality,,Factor,pubmed
+F00019,Overall survival,,Factor,pubmed
+F00020,Overall quality of life,,Factor,pubmed
+D00013,Colorectal Cancer,,Disease,pubmed
+F00021,diet,,Factor,pubmed
+D00014,Stomach cancer,,Disease,pubmed
+D00015,Cervical cancer,,Disease,pubmed
+F00022,Tobacco use,,Factor,pubmed
+F00023,Overweight,,Factor,pubmed
+F00024,Obesity,,Factor,pubmed
+F00025,Physical inactivity,,Factor,pubmed
+F00026,Infection,,Factor,pubmed
+D00016,colorectal cancer,,Disease,pubmed
+C00001,calcium,,Chemical,pubmed
+C00002,fiber,,Chemical,pubmed
+C00003,milk,,Chemical,pubmed
+C00004,whole grains,,Chemical,pubmed
+C00005,processed meat,,Chemical,pubmed
+C00006,vitamin D,,Chemical,pubmed
+C00007,folate,,Chemical,pubmed
+C00008,fruits,,Chemical,pubmed
+C00009,vegetables,,Chemical,pubmed
+F00027,gut microbiota,,Factor,pubmed
+F00028,inflammation,,Factor,pubmed
+F00029,immune responsiveness,,Factor,pubmed
+C00010,Mediterranean diet,,Chemical,pubmed
+C00011,Macrobiotic diet,,Chemical,pubmed
+C00012,Macro-Mediterranean diet,,Chemical,pubmed
+D00017,Estrogen receptor-negative cancer,,Disease,pubmed
+D00018,Metabolic syndrome,,Disease,pubmed
+C00013,Insulin,,Chemical,pubmed
+C00014,Testosterone,,Chemical,pubmed
+C00015,American Institute for Cancer Research/World Cancer Research Fund recommendations,,Chemical,pubmed
+C00016,Whole grain cereals,,Chemical,pubmed
+C00017,Legumes,,Chemical,pubmed
+C00018,Soy products,,Chemical,pubmed
+C00019,Vegetables,,Chemical,pubmed
+F00030,weight gain,,Factor,pubmed
+F00031,adipose tissue,,Factor,pubmed
+F00032,waist circumference,,Factor,pubmed
+F00033,alcohol consumption,,Factor,pubmed
+C00020,red meat,,Chemical,pubmed
+F00034,fruits,,Factor,pubmed
+F00035,vegetables,,Factor,pubmed
+F00036,nutrition,,Factor,pubmed
+F00037,prevention programs,,Factor,pubmed
+F00038,Gut Microbiome,,Factor,pubmed
+F00039,Diet,,Factor,pubmed
+F00040,Environment,,Factor,pubmed
+F00041,Overweight and obesity,,Factor,pubmed
+F00042,Fiber,,Factor,pubmed
+F00043,red and processed meat,,Factor,pubmed
+C00021,Chemoprevention,,Chemical,pubmed
+C00022,Treatment,,Chemical,pubmed
+F00044,meat consumption,,Factor,pubmed
+D00019,total mortality,,Disease,pubmed
+D00020,cardiovascular disease,,Disease,pubmed
+D00021,type 2 diabetes,,Disease,pubmed
+F00045,race,,Factor,pubmed
+F00046,BMI,,Factor,pubmed
+F00047,smoking,,Factor,pubmed
+F00048,blood pressure,,Factor,pubmed
+F00049,lipids,,Factor,pubmed
+F00050,physical activity,,Factor,pubmed
+F00051,nutritional parameters,,Factor,pubmed
+F00052,red meat,,Factor,pubmed
+F00053,processed meat,,Factor,pubmed
+F00054,white meat,,Factor,pubmed
+F00055,protein supply,,Factor,pubmed
+C00023,olive oil,,Chemical,pubmed
+C00024,red wine,,Chemical,pubmed
+C00025,tomatoes,,Chemical,pubmed
+C00026,resveratrol,,Chemical,pubmed
+C00027,lycopene,,Chemical,pubmed
+C00028,Fasting-mimicking diet,,Chemical,pubmed
+C00029,Antineoplastic treatments,,Chemical,pubmed
+F00056,Blood glucose,,Factor,pubmed
+F00057,Growth factor,,Factor,pubmed
+F00058,Metabolism,,Factor,pubmed
+F00059,Antitumor immunity,,Factor,pubmed
+F00060,Peripheral blood immunosuppressive myeloid cells,,Factor,pubmed
+F00061,Regulatory T-cell compartments,,Factor,pubmed
+F00062,Intratumor Th1/cytotoxic responses,,Factor,pubmed
+C00030,IFNγ,,Chemical,pubmed
+F00063,Clinical outcomes,,Factor,pubmed
+F00064,Environmental Factors,,Factor,pubmed
+F00065,Gut Microbiota,,Factor,pubmed
+F00066,Overweight and Obesity,,Factor,pubmed
+F00067,Physical Activity,,Factor,pubmed
+F00068,Dietary Patterns,,Factor,pubmed
+F00069,Red and Processed Meat,,Factor,pubmed
+C00031,Marine Omega-3 Fatty Acid,,Chemical,pubmed
+F00070,Alcohol,,Factor,pubmed
+F00071,Smoking,,Factor,pubmed
+F00072,Vitamin D Status,,Factor,pubmed
+F00073,Dairy Consumption,,Factor,pubmed
+C00032,Metformin,,Chemical,pubmed
+F00074,Western diet,,Factor,pubmed
+F00075,dietary fiber,,Factor,pubmed
+C00033,vitamin C,,Chemical,pubmed
+C00034,vitamin E,,Chemical,pubmed
+C00035,butyrate,,Chemical,pubmed
+D00022,breast cancer,,Disease,pubmed
+D00023,colon cancer,,Disease,pubmed
+D00024,diabetes,,Disease,pubmed
+D00025,ischemic heart disease,,Disease,pubmed
+D00026,ischemic stroke,,Disease,pubmed
+F00076,metabolic equivalent (MET) minutes/week,,Factor,pubmed
+D00027,ulcerative colitis,,Disease,pubmed
+F00077,low physical activity,,Factor,pubmed
+F00078,high fat consumption,,Factor,pubmed
+F00079,high red meat consumption,,Factor,pubmed
+F00080,high salt consumption,,Factor,pubmed
+C00036,iron,,Chemical,pubmed
+C00037,oestrogens,,Chemical,pubmed
+F00081,UK Biobank,,Factor,pubmed
+F00082,cohort study,,Factor,pubmed
+F00083,multivariable Cox proportional hazard models,,Factor,pubmed
+F00084,systematic review,,Factor,pubmed
+F00085,Ovid,,Factor,pubmed
+F00086,random effects model,,Factor,pubmed
+F00087,premenopausal,,Factor,pubmed
+F00088,postmenopausal,,Factor,pubmed
+F00089,univariate,,Factor,pubmed
+F00090,adjusted hazard ratio,,Factor,pubmed
+F00091,sedentary behaviour,,Factor,pubmed
+D00028,cancer,,Disease,pubmed
+D00029,advanced adenomas,,Disease,pubmed
+D00030,endometrial cancers,,Disease,pubmed
+C00038,alcohol,,Chemical,pubmed
+C00039,wholegrain,,Chemical,pubmed
+C00040,fibre,,Chemical,pubmed
+D00031,endometrial cancer,,Disease,pubmed
+F00092,red meat consumption,,Factor,pubmed
+C00041,heme iron,,Chemical,pubmed
+C00042,heterocyclic amines,,Chemical,pubmed
+F00093,whole grains,,Factor,pubmed
+C00043,meat,,Chemical,pubmed
+C00044,meat-derived compounds,,Chemical,pubmed
+C00045,red and processed meat,,Chemical,pubmed
+C00046,fibre from bread and breakfast cereals,,Chemical,pubmed
+C00047,fish,,Chemical,pubmed
+C00048,poultry,,Chemical,pubmed
+C00049,cheese,,Chemical,pubmed
+F00094,UK Biobank study,,Factor,pubmed
+F00095,food-frequency questionnaire,,Factor,pubmed
+F00096,24-hour dietary assessment,,Factor,pubmed
+F00097,measurement error,,Factor,pubmed
+F00098,intake,,Factor,pubmed
+F00099,follow-up,,Factor,pubmed
+F00100,risk,,Factor,pubmed
+D00032,colorectal adenoma,,Disease,pubmed
+D00033,lung cancer,,Disease,pubmed
+D00034,CHD,,Disease,pubmed
+D00035,stroke,,Disease,pubmed
+D00036,ovarian cancer,,Disease,pubmed
+D00037,prostate cancer,,Disease,pubmed
+D00038,renal cancer,,Disease,pubmed
+D00039,stomach cancer,,Disease,pubmed
+D00040,bladder cancer,,Disease,pubmed
+D00041,cardiometabolic disease,,Disease,pubmed
+F00101,total meat consumption,,Factor,pubmed
+F00102,processed meat consumption,,Factor,pubmed
+F00103,alcohol,,Factor,pubmed
+F00104,dietary calcium,,Factor,pubmed
+F00105,yogurt,,Factor,pubmed
+C00050,physical exercises,,Chemical,pubmed
+F00106,sedentary behavior,,Factor,pubmed
+F00107,healthy body weight,,Factor,pubmed
+F00108,balanced diet,,Factor,pubmed
+F00109,fruit,,Factor,pubmed
+F00110,grains,,Factor,pubmed
+F00111,fibers,,Factor,pubmed
+D00042,cardiovascular diseases,,Disease,pubmed
+D00043,cardiovascular mortality,,Disease,pubmed
+D00044,all-cause mortality,,Disease,pubmed
+F00112,Red meat,,Factor,pubmed
+F00113,Processed meat,,Factor,pubmed
+F00114,Poultry consumption,,Factor,pubmed
+F00115,Folate,,Factor,pubmed
+D00045,Dysbiosis,,Disease,pubmed
+F00116,Genetic factors,,Factor,pubmed
+C00051,Precision nutrition,,Chemical,pubmed
+C00052,Genomic studies,,Chemical,pubmed
+C00053,Transcriptomic studies,,Chemical,pubmed
+F00117,Lipid metabolism,,Factor,pubmed
+F00118,Genetic variants,,Factor,pubmed
+F00119,Dietary components,,Factor,pubmed
+D00046,Breast Cancer,,Disease,pubmed
+F00120,fish,,Factor,pubmed
+F00121,poultry,,Factor,pubmed
+F00122,egg,,Factor,pubmed
+F00123,dairy product,,Factor,pubmed
+F00124,grains/cereals,,Factor,pubmed
+F00125,nuts,,Factor,pubmed
+F00126,legumes,,Factor,pubmed
+F00127,soy,,Factor,pubmed
+F00128,sugar-sweetened beverages,,Factor,pubmed
+F00129,milk,,Factor,pubmed
+G00001,γδ T cell,,Gene,pubmed
+C00054,interferon-γ,,Chemical,pubmed
+C00055,interleukin (IL)-17,,Chemical,pubmed
+F00130,glycolysis,,Factor,pubmed
+F00131,oxidative metabolism,,Factor,pubmed
+F00132,mitochondrial mass,,Factor,pubmed
+F00133,mitochondrial activity,,Factor,pubmed
+D00047,tumor growth,,Disease,pubmed
+D00048,rectal cancer,,Disease,pubmed
+C00056,total meat,,Chemical,pubmed
+G00002,PD-L1,,Gene,pubmed
+F00134,anti-tumor immunity,,Factor,pubmed
+F00135,checkpoint blockade,,Factor,pubmed
+D00049,obesity,,Disease,pubmed
+C00057,ketogenic-diet,,Chemical,pubmed
+C00058,anti-CTLA-4 immunotherapy,,Chemical,pubmed
+C00059,type-I interferon (IFN),,Chemical,pubmed
+G00003,antigen presentation genes,,Gene,pubmed
+G00004,AMP-activated protein kinase (AMPK),,Gene,pubmed
+G00005,CMTM4,,Gene,pubmed
+G00006,EZH2,,Gene,pubmed
+G00007,PRC2,,Gene,pubmed
+C00060,AMPK agonists,,Chemical,pubmed
+F00136,Insulin resistance,,Factor,pubmed
+F00137,Hyperinsulinemia,,Factor,pubmed
+F00138,Chronic inflammation,,Factor,pubmed
+F00139,Adipocytokines,,Factor,pubmed
+F00140,Various hormones,,Factor,pubmed
+C00061,Weight loss,,Chemical,pubmed
+F00141,Dietary modification,,Factor,pubmed
+F00142,dietary fibres,,Factor,pubmed
+D00050,PVD,,Disease,pubmed
+D00051,MBD,,Disease,pubmed
+C00062,α-tocopherol,,Chemical,pubmed
+G00008,Lachnospiraceae,,Gene,pubmed
+G00009,Prevotellaceae,,Gene,pubmed
+C00063,nonconjugated bile acids,,Chemical,pubmed
+F00143,Apc-mutated PIRC rats,,Factor,pubmed
+F00144,azoxymethane (AOM)-induced rats,,Factor,pubmed
+C00064,faecal microbiota transplantation (FMT),,Chemical,pubmed
+C00065,16S rRNA gene sequencing,,Chemical,pubmed
