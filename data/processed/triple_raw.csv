@@ -1,30 +1,401 @@
-segment_id,pmid,disease_group,head_text,relation,tail_text,confidence,model,source
-cancer_37743572,37743572,cancer,Physical activity,Negative_associated,Cancer,0.9,qwen3:8b,pubmed
-cancer_35057525,35057525,cancer,Cancer,Cause,Overall survival,0.8,qwen3:8b,pubmed
-cancer_35057525,35057525,cancer,Breast cancer,Cause,Overall survival,0.8,qwen3:8b,pubmed
-cancer_35057525,35057525,cancer,Colorectal cancer,Cause,Overall survival,0.8,qwen3:8b,pubmed
-cancer_33518157,33518157,cancer,Colorectal Cancer,Cause,diet,0.8,qwen3:8b,pubmed
-cancer_33518157,33518157,cancer,diet,Prevent,Colorectal Cancer,0.8,qwen3:8b,pubmed
-cancer_37929890,37929890,cancer,Breast cancer,Cause,weight gain,0.9,qwen3:8b,pubmed
-cancer_37929890,37929890,cancer,Breast cancer,Cause,adipose tissue,0.9,qwen3:8b,pubmed
-cancer_31586566,31586566,cancer,Colorectal Cancer,Cause,Gut Microbiome,0.8,qwen3:8b,pubmed
-cancer_31586566,31586566,cancer,Colorectal Cancer,Cause,Diet,0.8,qwen3:8b,pubmed
-cancer_28935150,28935150,cancer,Colorectal cancer,Cause,Western society,0.8,qwen3:8b,pubmed
-cancer_28935150,28935150,cancer,Colorectal cancer,Cause,red and processed meat,0.8,qwen3:8b,pubmed
-cancer_28935150,28935150,cancer,Mediterranean diet,Cause,decreased overall cancer mortality,0.7,qwen3:8b,pubmed
-cancer_33401525,33401525,cancer,diet,Cause,Colorectal cancer,0.9,qwen3:8b,pubmed
-cancer_33401525,33401525,cancer,Western diet,Cause,Colorectal cancer,0.9,qwen3:8b,pubmed
-cancer_27510511,27510511,cancer,physical activity,Negative_associated,breast cancer,0.9,qwen3:8b,pubmed
-cancer_27510511,27510511,cancer,physical activity,Negative_associated,colon cancer,0.9,qwen3:8b,pubmed
-cancer_27510511,27510511,cancer,physical activity,Negative_associated,diabetes,0.9,qwen3:8b,pubmed
-cancer_35000418,35000418,cancer,Colorectal cancer,Cause,ulcerative colitis,0.95,qwen3:8b,pubmed
-cancer_35000418,35000418,cancer,Colorectal cancer,Positive_associated,obesity,0.95,qwen3:8b,pubmed
-cancer_35000418,35000418,cancer,Colorectal cancer,Positive_associated,low physical activity,0.99,qwen3:8b,pubmed
-cancer_28205448,28205448,cancer,red meat consumption,Cause,colorectal cancer,0.9,qwen3:8b,pubmed
-cancer_33462452,33462452,cancer,γδ T cell,Associated,interferon-γ,0.8,qwen3:8b,pubmed
-cancer_40210826,40210826,cancer,red meat,Cause,colorectal cancer,0.95,qwen3:8b,pubmed
-cancer_40210826,40210826,cancer,red meat,Cause,colon cancer,0.95,qwen3:8b,pubmed
-cancer_40210826,40210826,cancer,red meat,Cause,rectal cancer,0.95,qwen3:8b,pubmed
-cancer_40210826,40210826,cancer,processed meat,Cause,colorectal cancer,0.95,qwen3:8b,pubmed
-cancer_37621241,37621241,cancer,Obesity,Cause,Colorectal Cancer,0.9,qwen3:8b,pubmed
-cancer_37621241,37621241,cancer,Obesity,Cause,Recurrence,0.8,qwen3:8b,pubmed
+segment_id,pmid,disease_group,head_text,relation,tail_text,confidence
+cancer_33518157,33518157,cancer,Diet,Prevent,Colorectal Cancer,0.9
+cancer_33518157,33518157,cancer,Diet,Positive_associated,Colorectal Cancer,0.8
+cancer_35057525,35057525,cancer,Mediterranean diet,Negative_associated,Cancer,0.8
+cancer_35057525,35057525,cancer,Mediterranean diet,Negative_associated,Breast cancer,0.8
+cancer_35057525,35057525,cancer,Mediterranean diet,Negative_associated,Colorectal cancer,0.8
+cancer_35057525,35057525,cancer,Mediterranean diet,Negative_associated,Prostate cancer,0.8
+cancer_35057525,35057525,cancer,Diet,Positive_associated,Cancer,0.8
+cancer_35057525,35057525,cancer,Diet,Positive_associated,Breast cancer,0.8
+cancer_35057525,35057525,cancer,Diet,Positive_associated,Colorectal cancer,0.8
+cancer_35057525,35057525,cancer,Diet,Positive_associated,Prostate cancer,0.8
+cancer_35057525,35057525,cancer,Physical activity,Positive_associated,Cancer,0.8
+cancer_35057525,35057525,cancer,Physical activity,Positive_associated,Breast cancer,0.8
+cancer_35057525,35057525,cancer,Physical activity,Positive_associated,Colorectal cancer,0.8
+cancer_35057525,35057525,cancer,Physical activity,Positive_associated,Prostate cancer,0.8
+cancer_35361331,35361331,cancer,age,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,male sex,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,family history,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,obesity,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,physical inactivity,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,red meat intake,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,White race,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,tobacco use,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,alcohol use,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,abdominopelvic radiation,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,acromegaly,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,hereditary hemochromatosis,Positive_associated,Colorectal Cancer,0.9
+cancer_35361331,35361331,cancer,prior ureterosigmoidostomy,Positive_associated,Colorectal Cancer,0.9
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,cancer,0.95
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,breast cancer,0.95
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,colon cancer,0.95
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,lung cancer,0.95
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,gastric cancer,0.95
+cancer_37743572,37743572,cancer,Physical activity,Negative_associated,liver cancer,0.95
+cancer_25651787,25651787,cancer,Tobacco use,Cause,Lung cancer,0.9
+cancer_25651787,25651787,cancer,Tobacco use,Cause,Colorectal cancer,0.9
+cancer_25651787,25651787,cancer,Tobacco use,Cause,Stomach cancer,0.9
+cancer_25651787,25651787,cancer,Tobacco use,Cause,Liver cancer,0.9
+cancer_25651787,25651787,cancer,Overweight/obesity,Cause,Breast cancer,0.9
+cancer_25651787,25651787,cancer,Overweight/obesity,Cause,Colorectal cancer,0.9
+cancer_25651787,25651787,cancer,Physical inactivity,Cause,Breast cancer,0.9
+cancer_25651787,25651787,cancer,Physical inactivity,Cause,Colorectal cancer,0.9
+cancer_25651787,25651787,cancer,Infection,Cause,Liver cancer,0.9
+cancer_25651787,25651787,cancer,Infection,Cause,Stomach cancer,0.9
+cancer_25651787,25651787,cancer,Infection,Cause,Cervical cancer,0.9
+cancer_25575572,25575572,cancer,Calcium,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,fiber,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,milk,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,whole grains,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,red meat,Positive_associated,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,processed meat,Positive_associated,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,vitamin D,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,folate,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,fruits,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,vegetables,Prevent,colorectal cancer,0.9
+cancer_25575572,25575572,cancer,diet,Cause,colorectal cancer,0.8
+cancer_25575572,25575572,cancer,obesity,Positive_associated,colorectal cancer,0.8
+cancer_25575572,25575572,cancer,gut microbiota,Positive_associated,colorectal cancer,0.7
+cancer_37847493,37847493,cancer,Macro-Mediterranean diet,Prevent,Breast cancer,0.8
+cancer_37847493,37847493,cancer,Dietary intervention,Prevent,Breast cancer,0.7
+cancer_37847493,37847493,cancer,Self-reported diet,Positive_associated,Recurrence,0.6
+cancer_37929890,37929890,cancer,weight gain,Positive_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,adipose tissue,Positive_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,waist circumference,Positive_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,alcohol consumption,Positive_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,red meat,Positive_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,processed meat,Positive_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,fruits,Negative_associated,Breast cancer,0.9
+cancer_37929890,37929890,cancer,vegetables,Negative_associated,Breast cancer,0.9
+cancer_31586566,31586566,cancer,Gut Microbiome,Positive_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Diet,Positive_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Environment,Positive_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Overweight and obesity,Positive_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Physical activity,Negative_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Fiber,Negative_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Whole grains,Negative_associated,Colorectal Cancer,0.8
+cancer_31586566,31586566,cancer,Red and processed meat,Positive_associated,Colorectal Cancer,0.8
+cancer_28935150,28935150,cancer,Mediterranean diet,Prevent,colorectal cancer,0.9
+cancer_28935150,28935150,cancer,Western society,Positive_associated,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,red and processed meat,Positive_associated,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,Mediterranean coast,Negative_associated,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,olive oil,Prevent,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,red wine,Prevent,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,tomatoes,Prevent,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,resveratrol,Prevent,colorectal cancer,0.8
+cancer_28935150,28935150,cancer,lycopene,Prevent,colorectal cancer,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Treat,Cancer,0.9
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Prevent,Cancer,0.8
+cancer_34789537,34789537,cancer,Antineoplastic treatments,Treat,Cancer,0.9
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Positive_associated,systemic metabolism,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Positive_associated,antitumor immunity,0.9
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Positive_associated,Th1/cytotoxic responses,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Negative_associated,immunosuppressive myeloid cells,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Negative_associated,regulatory T-cell compartments,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Positive_associated,IFNγ,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Positive_associated,intratumor immunity,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Negative_associated,blood glucose,0.8
+cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Negative_associated,growth factor,0.8
+cancer_33401525,33401525,cancer,dietary fiber,Negative_associated,Colorectal cancer,0.9
+cancer_33401525,33401525,cancer,Western diet,Positive_associated,Colorectal cancer,0.0
+cancer_27510511,27510511,cancer,Physical activity,Negative_associated,Breast cancer,0.95
+cancer_27510511,27510511,cancer,Physical activity,Negative_associated,Colon cancer,0.95
+cancer_27510511,27510511,cancer,Physical activity,Negative_associated,Diabetes,0.95
+cancer_27510511,27510511,cancer,Physical activity,Negative_associated,Ischemic heart disease,0.95
+cancer_27510511,27510511,cancer,Physical activity,Negative_associated,Ischemic stroke,0.95
+cancer_35000418,35000418,cancer,obesity,Positive_associated,Colorectal cancer,0.9
+cancer_35000418,35000418,cancer,low physical activity,Positive_associated,Colorectal cancer,0.9
+cancer_35000418,35000418,cancer,smoking,Positive_associated,Colorectal cancer,0.9
+cancer_35000418,35000418,cancer,high fat consumption,Positive_associated,Colorectal cancer,0.9
+cancer_35000418,35000418,cancer,high red meat consumption,Positive_associated,Colorectal cancer,0.9
+cancer_35000418,35000418,cancer,high salt consumption,Positive_associated,Colorectal cancer,0.9
+cancer_35000418,35000418,cancer,ulcerative colitis,Positive_associated,Colorectal cancer,0.9
+cancer_29274927,29274927,cancer,Red and processed meat,Positive_associated,breast cancer,0.95
+cancer_29274927,29274927,cancer,iron,Positive_associated,breast cancer,0.9
+cancer_29274927,29274927,cancer,oestrogens,Positive_associated,breast cancer,0.9
+cancer_29274927,29274927,cancer,mutagens,Positive_associated,breast cancer,0.9
+cancer_28759385,28759385,cancer,physical activity,Negative_associated,cancer,0.9
+cancer_28759385,28759385,cancer,sedentary behaviour,Positive_associated,cancer,0.9
+cancer_28759385,28759385,cancer,sedentary behaviour,Positive_associated,colorectal cancer,0.9
+cancer_28759385,28759385,cancer,sedentary behaviour,Positive_associated,endometrial cancers,0.9
+cancer_28759385,28759385,cancer,sedentary behaviour,Positive_associated,breast cancer,0.9
+cancer_28759385,28759385,cancer,alcohol,Positive_associated,premalignant and invasive breast cancer,0.9
+cancer_28759385,28759385,cancer,wholegrain,Negative_associated,cancer,0.8
+cancer_28759385,28759385,cancer,fibre,Negative_associated,cancer,0.8
+cancer_28759385,28759385,cancer,fruits,Negative_associated,cancer,0.8
+cancer_28759385,28759385,cancer,vegetables,Negative_associated,cancer,0.8
+cancer_28759385,28759385,cancer,obesity,Positive_associated,cancer,0.9
+cancer_28759385,28759385,cancer,obesity,Positive_associated,endometrial cancer,0.9
+cancer_28759385,28759385,cancer,obesity,Positive_associated,post-menopausal breast cancer,0.9
+cancer_28759385,28759385,cancer,obesity,Positive_associated,fatty liver disease,0.9
+cancer_28759385,28759385,cancer,obesity,Positive_associated,hepatocellular carcinoma,0.9
+cancer_28759385,28759385,cancer,inflammatory state,Positive_associated,cancer,0.8
+cancer_28759385,28759385,cancer,macrophages,Positive_associated,cancer,0.8
+cancer_28759385,28759385,cancer,adipocytes,Positive_associated,cancer,0.8
+cancer_28759385,28759385,cancer,aromatase,Positive_associated,cancer,0.8
+cancer_28759385,28759385,cancer,interleukin 6,Positive_associated,cancer,0.8
+cancer_28759385,28759385,cancer,metabolic obesity state,Positive_associated,cancer,0.8
+cancer_28205448,28205448,cancer,red meat,Positive_associated,colon cancer,0.8
+cancer_28205448,28205448,cancer,red and processed meat,Positive_associated,colorectal cancer,0.8
+cancer_28205448,28205448,cancer,heme iron,Positive_associated,colorectal cancer,0.7
+cancer_28205448,28205448,cancer,heterocyclic amines,Positive_associated,colorectal cancer,0.7
+cancer_30993317,30993317,cancer,red and processed meat,Positive_associated,colorectal cancer,0.95
+cancer_30993317,30993317,cancer,fibre from bread and breakfast cereals,Negative_associated,colorectal cancer,0.95
+cancer_30993317,30993317,cancer,alcohol,Positive_associated,colorectal cancer,0.95
+cancer_30993317,30993317,cancer,UK Biobank,Associated,colorectal cancer,0.95
+cancer_35291893,35291893,cancer,meat consumption,Cause,non-communicable diseases,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,colorectal adenoma,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,lung cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,CHD,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,stroke,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,ovarian cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,prostate cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,renal cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,stomach cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,colon cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,bladder cancer,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,cardiometabolic risk,0.9
+cancer_35291893,35291893,cancer,meat consumption,Cause,cancer risk,0.9
+cancer_33591366,33591366,cancer,Diet,Associated,Colorectal Cancer,0.8
+cancer_33591366,33591366,cancer,Red meat,Positive_associated,Colorectal Cancer,0.9
+cancer_33591366,33591366,cancer,Alcohol,Positive_associated,Colorectal Cancer,0.9
+cancer_33591366,33591366,cancer,Dietary fiber,Negative_associated,Colorectal Cancer,0.9
+cancer_33591366,33591366,cancer,Calcium,Negative_associated,Colorectal Cancer,0.9
+cancer_33591366,33591366,cancer,Yogurt,Negative_associated,Colorectal Cancer,0.9
+cancer_33591366,33591366,cancer,Processed meat,Positive_associated,Colorectal Cancer,0.8
+cancer_33591366,33591366,cancer,Whole grains,Negative_associated,Colorectal Cancer,0.8
+cancer_33591366,33591366,cancer,Dietary patterns,Associated,Colorectal Cancer,0.8
+cancer_36541995,36541995,cancer,Exercise,Prevent,Breast cancer,0.9
+cancer_36541995,36541995,cancer,Exercise,Treat,Breast cancer,0.9
+cancer_36541995,36541995,cancer,Exercise,Treat,cardiovascular diseases,0.9
+cancer_36541995,36541995,cancer,Exercise,Reduce,cardiovascular mortality,0.9
+cancer_36541995,36541995,cancer,Exercise,Reduce,all-cause mortality,0.9
+cancer_36541995,36541995,cancer,sedentary behavior,Positive_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,alcohol consumption,Positive_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,healthy body weight,Negative_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,balanced diet,Negative_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,fruit,Negative_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,vegetables,Negative_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,grains,Negative_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,fibers,Negative_associated,Breast cancer,0.8
+cancer_36541995,36541995,cancer,red meat,Positive_associated,Breast cancer,0.8
+cancer_28956850,28956850,cancer,Cancer,Complicate,Colorectal Cancer,0.9
+cancer_28956850,28956850,cancer,Precision Nutrition,Prevent,Cancer,0.8
+cancer_28956850,28956850,cancer,Lipid Metabolism,Positive_associated,Colorectal Cancer,0.7
+cancer_28956850,28956850,cancer,Genetic factors,Positive_associated,Cancer,0.8
+cancer_28956850,28956850,cancer,Environmental factors,Positive_associated,Cancer,0.8
+cancer_28956850,28956850,cancer,Red and processed meat,Positive_associated,Colorectal Cancer,0.9
+cancer_28956850,28956850,cancer,Poultry consumption,Positive_associated,Colorectal Cancer,0.9
+cancer_28956850,28956850,cancer,Fiber,Negative_associated,Colorectal Cancer,0.9
+cancer_28956850,28956850,cancer,Folate,Negative_associated,Colorectal Cancer,0.9
+cancer_28956850,28956850,cancer,Unhealthy diet,Positive_associated,Obesity,0.9
+cancer_28956850,28956850,cancer,Unhealthy diet,Positive_associated,Dysbiosis,0.9
+cancer_28956850,28956850,cancer,Genomic studies,Associated,Precision Nutrition,0.8
+cancer_28956850,28956850,cancer,Transcriptomic studies,Associated,Precision Nutrition,0.8
+cancer_28956850,28956850,cancer,Genetic variants,Positive_associated,Colorectal Cancer,0.7
+cancer_28956850,28956850,cancer,Dietary components,Positive_associated,Colorectal Cancer,0.7
+cancer_33271590,33271590,cancer,vegetables,Negative_associated,Breast cancer,0.95
+cancer_33271590,33271590,cancer,fruit,Negative_associated,Breast cancer,0.95
+cancer_33271590,33271590,cancer,cheese,Negative_associated,Breast cancer,0.95
+cancer_33271590,33271590,cancer,soy,Negative_associated,Breast cancer,0.95
+cancer_33271590,33271590,cancer,red meat,Positive_associated,Breast cancer,0.95
+cancer_33271590,33271590,cancer,processed meat,Positive_associated,Breast cancer,0.95
+cancer_33271590,33271590,cancer,milk,Associated,Breast cancer,0.9
+cancer_33462452,33462452,cancer,γδ T cell subsets,Associated,tumor,0.8
+cancer_33462452,33462452,cancer,interferon-γ (IFN-γ),Associated,tumor,0.7
+cancer_33462452,33462452,cancer,interleukin (IL)-17,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,glycolysis,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,oxidative metabolism,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,mitochondrial mass,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,mitochondrial activity,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,lipid uptake,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,lipid storage,Associated,tumor,0.7
+cancer_33462452,33462452,cancer,obesity,Positive_associated,tumor,0.8
+cancer_33462452,33462452,cancer,glucose,Prevent,tumor,0.7
+cancer_33462452,33462452,cancer,cancer immunotherapy,Associated,tumor,0.7
+cancer_40210826,40210826,cancer,red meat,Positive_associated,colorectal cancer,0.95
+cancer_40210826,40210826,cancer,red meat,Positive_associated,colon cancer,0.95
+cancer_40210826,40210826,cancer,red meat,Positive_associated,rectal cancer,0.95
+cancer_40210826,40210826,cancer,processed meat,Positive_associated,colorectal cancer,0.95
+cancer_40210826,40210826,cancer,processed meat,Positive_associated,colon cancer,0.95
+cancer_40210826,40210826,cancer,processed meat,Positive_associated,rectal cancer,0.95
+cancer_40210826,40210826,cancer,total meat,Positive_associated,colorectal cancer,0.95
+cancer_40210826,40210826,cancer,total meat,Positive_associated,colon cancer,0.95
+cancer_40210826,40210826,cancer,total meat,Positive_associated,rectal cancer,0.95
+cancer_33909988,33909988,cancer,energy status,Positive_associated,metabolic diseases,0.9
+cancer_33909988,33909988,cancer,energy status,Positive_associated,obesity,0.9
+cancer_33909988,33909988,cancer,energy status,Positive_associated,diabetes,0.9
+cancer_33909988,33909988,cancer,energy status,Positive_associated,cancer,0.9
+cancer_33909988,33909988,cancer,ketogenic-diet,Treat,cancer,0.8
+cancer_33909988,33909988,cancer,anti-CTLA-4 immunotherapy,Treat,cancer,0.8
+cancer_33909988,33909988,cancer,AMPK,Positive_associated,anti-CTLA-4 immunotherapy,0.8
+cancer_33909988,33909988,cancer,AMPK,Positive_associated,cancer,0.8
+cancer_33909988,33909988,cancer,AMPK,Positive_associated,anti-tumor immunity,0.8
+cancer_33909988,33909988,cancer,AMPK,Positive_associated,type-I interferon (IFN),0.8
+cancer_33909988,33909988,cancer,AMPK,Positive_associated,antigen presentation genes,0.8
+cancer_33909988,33909988,cancer,AMPK,Positive_associated,syngeneic mouse tumor models,0.8
+cancer_37621241,37621241,cancer,Obesity,Cause,Colorectal Cancer,0.9
+cancer_37621241,37621241,cancer,Obesity,Complicate,Colorectal Cancer,0.8
+cancer_37621241,37621241,cancer,Weight loss,Prevent,Colorectal Cancer,0.7
+cancer_37621241,37621241,cancer,Dietary modification,Prevent,Colorectal Cancer,0.7
+cancer_37621241,37621241,cancer,Physical activity,Prevent,Colorectal Cancer,0.7
+cancer_39334498,39334498,cancer,diet,Positive_associated,Colorectal cancer,0.8
+cancer_39334498,39334498,cancer,red and processed meat,Positive_associated,Colorectal cancer,0.9
+cancer_39334498,39334498,cancer,dietary fibres,Negative_associated,Colorectal cancer,0.9
+cancer_39334498,39334498,cancer,gut microbiota,Positive_associated,Colorectal cancer,0.7
+cancer_39334498,39334498,cancer,PVD,Negative_associated,Colorectal cancer,0.9
+cancer_39334498,39334498,cancer,MBD,Positive_associated,Colorectal cancer,0.9
+cancer_39334498,39334498,cancer,α-tocopherol,Prevent,Colorectal cancer,0.8
+cancer_39334498,39334498,cancer,AOM,Cause,Colorectal cancer,0.8
+cancer_39334498,39334498,cancer,Lachnospiraceae,Negative_associated,Colorectal cancer,0.8
+cancer_39334498,39334498,cancer,Prevotellaceae,Negative_associated,Colorectal cancer,0.8
+cancer_39334498,39334498,cancer,nonconjugated bile acids,Negative_associated,Colorectal cancer,0.8
+cancer_39779669,39779669,cancer,diet,Positive_associated,colorectal cancer,0.9
+cancer_39779669,39779669,cancer,UK,Associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,Alcohol,Positive_associated,colorectal cancer,0.95
+cancer_39779669,39779669,cancer,calcium,Negative_associated,colorectal cancer,0.95
+cancer_39779669,39779669,cancer,dairy-related factors,Positive_associated,colorectal cancer,0.9
+cancer_39779669,39779669,cancer,red and processed meat,Positive_associated,colorectal cancer,0.9
+cancer_39779669,39779669,cancer,breakfast cereal,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,fruit,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,wholegrains,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,carbohydrates,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,fibre,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,total sugars,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,folate,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,vitamin C,Negative_associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,milk,Negative_associated,colorectal cancer,0.95
+cancer_39779669,39779669,cancer,ColoRectal Transdisciplinary Study,Associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,Colon Cancer Family Registry,Associated,colorectal cancer,0.8
+cancer_39779669,39779669,cancer,Genetics and Epidemiology of Colorectal Cancer Consortium (GECCO),Associated,colorectal cancer,0.8
+cancer_25619144,25619144,cancer,diet,Positive_associated,Colorectal cancer,0.8
+cancer_25619144,25619144,cancer,obesity,Positive_associated,Colorectal cancer,0.95
+cancer_25619144,25619144,cancer,physical activity,Negative_associated,Colorectal cancer,0.95
+cancer_25619144,25619144,cancer,red meat,Positive_associated,Colorectal cancer,0.9
+cancer_25619144,25619144,cancer,fish,Negative_associated,Colorectal cancer,0.9
+cancer_25619144,25619144,cancer,fiber,Negative_associated,Colorectal cancer,0.9
+cancer_25619144,25619144,cancer,milk,Negative_associated,Colorectal cancer,0.8
+cancer_25619144,25619144,cancer,alcohol,Positive_associated,Colorectal cancer,0.9
+cancer_25619144,25619144,cancer,smoking,Positive_associated,Colorectal cancer,0.8
+cancer_25619144,25619144,cancer,alcoholic beverage,Positive_associated,Colorectal cancer,0.8
+cancer_34140290,34140290,cancer,alkylating signature,Cause,Colorectal cancer,0.9
+cancer_34140290,34140290,cancer,red meat,Positive_associated,Colorectal cancer,0.9
+cancer_34140290,34140290,cancer,alkylating signature,Positive_associated,KRAS,0.8
+cancer_34140290,34140290,cancer,alkylating signature,Positive_associated,PIK3CA,0.8
+cancer_37621240,37621240,cancer,gut microbiota,Cause,Colorectal cancer,0.9
+cancer_37621240,37621240,cancer,gut microbiota,Prevent,Colorectal cancer,0.9
+cancer_37621240,37621240,cancer,obesity,Positive_associated,Colorectal cancer,0.9
+cancer_37621240,37621240,cancer,high-fat diet,Positive_associated,Colorectal cancer,0.9
+cancer_37621240,37621240,cancer,red meat,Positive_associated,Colorectal cancer,0.9
+cancer_37621240,37621240,cancer,processed meat,Positive_associated,Colorectal cancer,0.9
+cancer_37621240,37621240,cancer,alcohol,Positive_associated,Colorectal cancer,0.9
+cancer_34148612,34148612,cancer,diet,Prevent,colorectal cancer,0.9
+cancer_34148612,34148612,cancer,lifestyle,Prevent,colorectal cancer,0.9
+cancer_34148612,34148612,cancer,excess body weight,Positive_associated,colorectal cancer,0.9
+cancer_34148612,34148612,cancer,fiber,Negative_associated,colorectal cancer,0.9
+cancer_34148612,34148612,cancer,red and processed meat,Positive_associated,colorectal cancer,0.9
+cancer_34148612,34148612,cancer,coffee,Negative_associated,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,diet,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,body fatness,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,wholegrains,Negative_associated,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,fibre,Negative_associated,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,red and processed meat,Positive_associated,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,alcohol,Positive_associated,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,calcium,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,vitamin D,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,n-3 fatty acid EPA,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,obesity,Positive_associated,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,Roux-en-Y gastric bypass,Complicate,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,nutritional therapy,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,cancer interception,Prevent,colorectal cancer,0.9
+cancer_32019626,32019626,cancer,intestinal microbiota,Associated,colorectal cancer,0.8
+cancer_32019626,32019626,cancer,precision medicine,Associated,colorectal cancer,0.8
+cancer_32001714,32001714,cancer,Physical activity,Negative_associated,breast cancer,0.95
+cancer_32001714,32001714,cancer,Physical activity,Negative_associated,colorectal cancer,0.95
+cancer_32001714,32001714,cancer,Mendelian randomisation,Associated,breast cancer,0.9
+cancer_32001714,32001714,cancer,Mendelian randomisation,Associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,healthy lifestyle,Prevent,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,healthy diet,Prevent,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,physical activity,Prevent,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,obesity,Positive_associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,red/processed meat,Positive_associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,fibers,Negative_associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,whole grains,Negative_associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,cereals,Negative_associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,fruit,Negative_associated,colorectal cancer,0.9
+cancer_29496088,29496088,cancer,vegetables,Negative_associated,colorectal cancer,0.9
+cancer_29478430,29478430,cancer,Weight,Negative_associated,breast cancer,0.8
+cancer_29478430,29478430,cancer,Weight,Positive_associated,breast cancer,0.7
+cancer_29478430,29478430,cancer,physical activity,Negative_associated,breast cancer,0.8
+cancer_35504785,35504785,cancer,Diet,Negative_associated,Colorectal Cancer,0.9
+cancer_35504785,35504785,cancer,Exercise,Negative_associated,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,Colorectal Cancer,Cause,adenomatous polyps,0.9
+cancer_29763272,29763272,cancer,guaiac-based fecal occult blood tests,Prevent,Colorectal Cancer,0.8
+cancer_29763272,29763272,cancer,flexible sigmoidoscopy,Prevent,Colorectal Cancer,0.8
+cancer_29763272,29763272,cancer,colonoscopy,Prevent,Colorectal Cancer,0.7
+cancer_29763272,29763272,cancer,fecal immunochemical testing,Prevent,Colorectal Cancer,0.7
+cancer_29763272,29763272,cancer,computed tomographic colonography,Prevent,Colorectal Cancer,0.7
+cancer_29763272,29763272,cancer,multitargeted stool DNA testing,Prevent,Colorectal Cancer,0.7
+cancer_29763272,29763272,cancer,aspirin,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,nonsteroidal anti-inflammatory drugs,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,cyclooxygenase-2 inhibitors,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,hormone therapy,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,calcium supplementation,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,moderate dairy consumption,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,reduced red meat consumption,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,increased physical activity,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,decreased body mass index,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,statin use,Prevent,Colorectal Cancer,0.9
+cancer_29763272,29763272,cancer,increased alcohol intake,Positive_associated,Colorectal Cancer,0.8
+cancer_29763272,29763272,cancer,tobacco use,Positive_associated,Colorectal Cancer,0.8
+cancer_39202500,39202500,cancer,Obesity,Cause,Colorectal Cancer,0.95
+cancer_39202500,39202500,cancer,Obesity,Cause,CRC,0.95
+cancer_39202500,39202500,cancer,Obesity,Complicate,Colorectal Cancer,0.9
+cancer_39202500,39202500,cancer,TNF-alpha,Positive_associated,Colorectal Cancer,0.85
+cancer_39202500,39202500,cancer,interleukin-6,Positive_associated,Colorectal Cancer,0.85
+cancer_39202500,39202500,cancer,C-reactive protein,Positive_associated,Colorectal Cancer,0.85
+cancer_39202500,39202500,cancer,dietary modification,Prevent,Colorectal Cancer,0.9
+cancer_39202500,39202500,cancer,calorie restriction,Prevent,Colorectal Cancer,0.9
+cancer_39202500,39202500,cancer,weight-control strategies,Prevent,Colorectal Cancer,0.9
+cancer_28992860,28992860,cancer,Diet,Prevent,Cancer Survivorship,0.8
+cancer_28992860,28992860,cancer,Physical Activity,Prevent,Cancer Survivorship,0.8
+cancer_28992860,28992860,cancer,Body Weight,Prevent,Cancer Survivorship,0.8
+cancer_28992860,28992860,cancer,Diet,Negative_associated,Cancer Recurrence,0.7
+cancer_28992860,28992860,cancer,Physical Activity,Negative_associated,Cancer Recurrence,0.7
+cancer_28992860,28992860,cancer,Body Weight,Negative_associated,Cancer Recurrence,0.7
+cancer_29210053,29210053,cancer,whole grains,Negative_associated,colorectal cancer,0.95
+cancer_29210053,29210053,cancer,vegetables,Negative_associated,colorectal cancer,0.96
+cancer_29210053,29210053,cancer,fruit,Negative_associated,colorectal cancer,0.95
+cancer_29210053,29210053,cancer,dairy,Negative_associated,colorectal cancer,0.95
+cancer_29210053,29210053,cancer,red meat,Positive_associated,colorectal cancer,0.95
+cancer_29210053,29210053,cancer,processed meat,Positive_associated,colorectal cancer,0.95
+cancer_25540232,25540232,cancer,diet,Positive_associated,colorectal cancer,0.8
+cancer_25540232,25540232,cancer,inflammation,Positive_associated,colorectal cancer,0.8
+cancer_25540232,25540232,cancer,gastrointestinal microbiota,Positive_associated,colorectal cancer,0.8
+cancer_27989995,27989995,cancer,meat products,Positive_associated,colorectal cancer,0.9
+cancer_27989995,27989995,cancer,processed meat products,Positive_associated,colorectal cancer,0.9
+cancer_27989995,27989995,cancer,red meat,Positive_associated,colorectal cancer,0.6
+cancer_27989995,27989995,cancer,meat,Positive_associated,cancer,0.5
+cancer_27989995,27989995,cancer,International Agency for Research on Cancer (IARC),Cause,cancer,0.8
+cancer_35760086,35760086,cancer,Western-Style Diet,Positive_associated,Colorectal Cancer,0.95
+cancer_35760086,35760086,cancer,pks<sup>+</sup>E coli,Positive_associated,Colorectal Cancer,0.95
+cancer_35760086,35760086,cancer,pks<sup>+</sup>E coli,Cause,Colorectal Cancer,0.9
+cancer_27128451,27128451,cancer,Red meat,Positive_associated,type 2 diabetes,0.9
+cancer_27128451,27128451,cancer,Red meat,Positive_associated,colorectal cancer,0.9
+cancer_27128451,27128451,cancer,Red meat,Positive_associated,cardiovascular diseases,0.9
+cancer_27128451,27128451,cancer,Red meat,Positive_associated,all-cause mortality,0.9
+cancer_27128451,27128451,cancer,fish,Negative_associated,type 2 diabetes,0.8
+cancer_27128451,27128451,cancer,nuts,Negative_associated,type 2 diabetes,0.8
+cancer_27128451,27128451,cancer,vegetables,Negative_associated,type 2 diabetes,0.8
+cancer_27128451,27128451,cancer,fruits,Negative_associated,type 2 diabetes,0.8
+cancer_27128451,27128451,cancer,pulses and legumes,Negative_associated,type 2 diabetes,0.8
+cancer_27128451,27128451,cancer,whole grains,Negative_associated,type 2 diabetes,0.8
+cancer_27128451,27128451,cancer,dairy products,Negative_associated,type 2 diabetes,0.8
+cancer_31233770,31233770,cancer,physical inactivity,Positive_associated,Colorectal cancer,0.9
+cancer_31233770,31233770,cancer,obesity,Positive_associated,Colorectal cancer,0.9
+cancer_31233770,31233770,cancer,red/processed meats,Positive_associated,Colorectal cancer,0.9
+cancer_31233770,31233770,cancer,alcohol,Positive_associated,Colorectal cancer,0.9
+cancer_31233770,31233770,cancer,healthy lifestyle habits,Negative_associated,Colorectal cancer,0.9
+cancer_33885236,33885236,cancer,Physical activity,Prevent,cancer,0.9
+cancer_33885236,33885236,cancer,Physical activity,Prevent,colon cancer,0.9
+cancer_33885236,33885236,cancer,Physical activity,Prevent,breast cancer,0.9
