@@ -1,517 +1,307 @@
 segment_id,pmid,disease_group,entity_name,entity_type
-cancer_33518157,33518157,cancer,Colorectal Cancer,Disease
-cancer_33518157,33518157,cancer,Diet,Factor
-cancer_35057525,35057525,cancer,Diet,Factor
-cancer_35057525,35057525,cancer,Cancer,Disease
-cancer_35057525,35057525,cancer,Breast cancer,Disease
-cancer_35057525,35057525,cancer,Colorectal cancer,Disease
-cancer_35057525,35057525,cancer,Prostate cancer,Disease
-cancer_35057525,35057525,cancer,Mediterranean diet,Factor
-cancer_35057525,35057525,cancer,Physical activity,Factor
-cancer_35361331,35361331,cancer,Colorectal Polyps,Disease
-cancer_35361331,35361331,cancer,Colorectal Cancer,Disease
-cancer_35361331,35361331,cancer,age,Factor
-cancer_35361331,35361331,cancer,male sex,Factor
-cancer_35361331,35361331,cancer,family history,Factor
-cancer_35361331,35361331,cancer,obesity,Factor
-cancer_35361331,35361331,cancer,physical inactivity,Factor
-cancer_35361331,35361331,cancer,red meat intake,Factor
-cancer_35361331,35361331,cancer,White race,Factor
-cancer_35361331,35361331,cancer,tobacco use,Factor
-cancer_35361331,35361331,cancer,alcohol use,Factor
-cancer_35361331,35361331,cancer,abdominopelvic radiation,Factor
-cancer_35361331,35361331,cancer,acromegaly,Factor
-cancer_35361331,35361331,cancer,hereditary hemochromatosis,Factor
-cancer_35361331,35361331,cancer,prior ureterosigmoidostomy,Factor
-cancer_37743572,37743572,cancer,Physical activity,Factor
-cancer_37743572,37743572,cancer,cancer,Disease
-cancer_37743572,37743572,cancer,breast cancer,Disease
-cancer_37743572,37743572,cancer,colon cancer,Disease
-cancer_37743572,37743572,cancer,lung cancer,Disease
-cancer_37743572,37743572,cancer,gastric cancer,Disease
-cancer_37743572,37743572,cancer,liver cancer,Disease
-cancer_25651787,25651787,cancer,Cancer,Disease
-cancer_25651787,25651787,cancer,Lung cancer,Disease
-cancer_25651787,25651787,cancer,Breast cancer,Disease
-cancer_25651787,25651787,cancer,Colorectal cancer,Disease
-cancer_25651787,25651787,cancer,Prostate cancer,Disease
-cancer_25651787,25651787,cancer,Liver cancer,Disease
-cancer_25651787,25651787,cancer,Stomach cancer,Disease
-cancer_25651787,25651787,cancer,Cervical cancer,Disease
-cancer_25651787,25651787,cancer,Tobacco use,Factor
-cancer_25651787,25651787,cancer,Overweight/obesity,Factor
-cancer_25651787,25651787,cancer,Physical inactivity,Factor
-cancer_25651787,25651787,cancer,Infection,Factor
-cancer_25575572,25575572,cancer,colorectal cancer,Disease
-cancer_25575572,25575572,cancer,Calcium,Chemical
-cancer_25575572,25575572,cancer,fiber,Chemical
-cancer_25575572,25575572,cancer,milk,Chemical
-cancer_25575572,25575572,cancer,whole grains,Chemical
-cancer_25575572,25575572,cancer,red meat,Factor
-cancer_25575572,25575572,cancer,processed meat,Factor
-cancer_25575572,25575572,cancer,vitamin D,Chemical
-cancer_25575572,25575572,cancer,folate,Chemical
-cancer_25575572,25575572,cancer,fruits,Chemical
-cancer_25575572,25575572,cancer,vegetables,Chemical
-cancer_25575572,25575572,cancer,diet,Factor
-cancer_25575572,25575572,cancer,obesity,Factor
-cancer_25575572,25575572,cancer,gut microbiota,Factor
-cancer_37847493,37847493,cancer,Breast cancer,Disease
-cancer_37847493,37847493,cancer,DIANA-5,Factor
-cancer_37847493,37847493,cancer,Mediterranean diet,Chemical
-cancer_37847493,37847493,cancer,Macrobiotic diet,Chemical
-cancer_37847493,37847493,cancer,Macro-Mediterranean diet,Chemical
-cancer_37847493,37847493,cancer,Estrogen receptor-negative cancer,Disease
-cancer_37847493,37847493,cancer,Metabolic syndrome,Disease
-cancer_37847493,37847493,cancer,Insulin,Chemical
-cancer_37847493,37847493,cancer,Testosterone,Chemical
-cancer_37847493,37847493,cancer,Dietary intervention,Factor
-cancer_37847493,37847493,cancer,American Institute for Cancer Research/World Cancer Research Fund,Factor
-cancer_37847493,37847493,cancer,Whole grain cereals,Chemical
-cancer_37847493,37847493,cancer,Legumes,Chemical
-cancer_37847493,37847493,cancer,Soy products,Chemical
-cancer_37847493,37847493,cancer,Vegetables,Chemical
-cancer_37847493,37847493,cancer,Fruit,Chemical
-cancer_37847493,37847493,cancer,Nuts,Chemical
-cancer_37847493,37847493,cancer,Olive oil,Chemical
-cancer_37847493,37847493,cancer,Fish,Chemical
-cancer_37847493,37847493,cancer,Refined products,Chemical
-cancer_37847493,37847493,cancer,Potatoes,Chemical
-cancer_37847493,37847493,cancer,Sugar,Chemical
-cancer_37847493,37847493,cancer,Desserts,Chemical
-cancer_37847493,37847493,cancer,Red meat,Chemical
-cancer_37847493,37847493,cancer,Processed meat,Chemical
-cancer_37847493,37847493,cancer,Dairy products,Chemical
-cancer_37847493,37847493,cancer,Alcoholic drinks,Chemical
-cancer_37847493,37847493,cancer,Dietary Index,Factor
-cancer_37847493,37847493,cancer,Recurrence,Factor
-cancer_37847493,37847493,cancer,HR,Factor
-cancer_37847493,37847493,cancer,Confidence interval,Factor
-cancer_37847493,37847493,cancer,Compliance,Factor
-cancer_37847493,37847493,cancer,Self-reported diet,Factor
-cancer_37929890,37929890,cancer,Breast cancer,Disease
-cancer_37929890,37929890,cancer,weight gain,Factor
-cancer_37929890,37929890,cancer,adipose tissue,Factor
-cancer_37929890,37929890,cancer,waist circumference,Factor
-cancer_37929890,37929890,cancer,alcohol consumption,Factor
-cancer_37929890,37929890,cancer,red meat,Factor
-cancer_37929890,37929890,cancer,processed meat,Factor
-cancer_37929890,37929890,cancer,fruits,Factor
-cancer_37929890,37929890,cancer,vegetables,Factor
-cancer_31586566,31586566,cancer,Colorectal Cancer,Disease
-cancer_31586566,31586566,cancer,Gut Microbiome,Factor
-cancer_31586566,31586566,cancer,Diet,Factor
-cancer_31586566,31586566,cancer,Environment,Factor
-cancer_31586566,31586566,cancer,Overweight and obesity,Factor
-cancer_31586566,31586566,cancer,Physical activity,Factor
-cancer_31586566,31586566,cancer,Fiber,Factor
-cancer_31586566,31586566,cancer,Whole grains,Factor
-cancer_31586566,31586566,cancer,Red and processed meat,Factor
-cancer_28935150,28935150,cancer,Mediterranean diet,Factor
-cancer_28935150,28935150,cancer,colorectal cancer,Disease
-cancer_28935150,28935150,cancer,Western society,Factor
-cancer_28935150,28935150,cancer,red and processed meat,Factor
-cancer_28935150,28935150,cancer,Mediterranean coast,Factor
-cancer_28935150,28935150,cancer,olive oil,Factor
-cancer_28935150,28935150,cancer,red wine,Factor
-cancer_28935150,28935150,cancer,tomatoes,Factor
-cancer_28935150,28935150,cancer,resveratrol,Chemical
-cancer_28935150,28935150,cancer,lycopene,Chemical
-cancer_34789537,34789537,cancer,Fasting-Mimicking Diet,Chemical
-cancer_34789537,34789537,cancer,Cancer,Disease
-cancer_34789537,34789537,cancer,Antineoplastic treatments,Chemical
-cancer_34789537,34789537,cancer,Tumor-bearing mice,Factor
-cancer_34789537,34789537,cancer,blood glucose,Factor
-cancer_34789537,34789537,cancer,growth factor,Factor
-cancer_34789537,34789537,cancer,IFNγ,Factor
-cancer_34789537,34789537,cancer,Th1/cytotoxic responses,Factor
-cancer_34789537,34789537,cancer,immunosuppressive myeloid cells,Factor
-cancer_34789537,34789537,cancer,regulatory T-cell compartments,Factor
-cancer_34789537,34789537,cancer,intratumor immunity,Factor
-cancer_34789537,34789537,cancer,systemic metabolism,Factor
-cancer_34789537,34789537,cancer,antitumor immunity,Factor
-cancer_34789537,34789537,cancer,standard antitumor therapies,Chemical
-cancer_33401525,33401525,cancer,Colorectal cancer,Disease
-cancer_33401525,33401525,cancer,dietary fiber,Factor
-cancer_33401525,33401525,cancer,Western diet,Factor
-cancer_33401525,33401525,cancer,vitamin C,Chemical
-cancer_33401525,33401525,cancer,vitamin E,Chemical
-cancer_33401525,33401525,cancer,selenium,Chemical
-cancer_33401525,33401525,cancer,calcium,Chemical
-cancer_33401525,33401525,cancer,butyrate,Chemical
-cancer_33401525,33401525,cancer,vitamin D,Chemical
-cancer_33401525,33401525,cancer,diet,Factor
-cancer_33401525,33401525,cancer,gut microbiota,Factor
-cancer_27510511,27510511,cancer,Physical activity,Factor
-cancer_27510511,27510511,cancer,Breast cancer,Disease
-cancer_27510511,27510511,cancer,Colon cancer,Disease
-cancer_27510511,27510511,cancer,Diabetes,Disease
-cancer_27510511,27510511,cancer,Ischemic heart disease,Disease
-cancer_27510511,27510511,cancer,Ischemic stroke,Disease
-cancer_35000418,35000418,cancer,Colorectal cancer,Disease
-cancer_35000418,35000418,cancer,ulcerative colitis,Disease
-cancer_35000418,35000418,cancer,obesity,Factor
-cancer_35000418,35000418,cancer,low physical activity,Factor
-cancer_35000418,35000418,cancer,smoking,Factor
-cancer_35000418,35000418,cancer,high fat consumption,Factor
-cancer_35000418,35000418,cancer,high red meat consumption,Factor
-cancer_35000418,35000418,cancer,high salt consumption,Factor
-cancer_29274927,29274927,cancer,Red and processed meat,Factor
-cancer_29274927,29274927,cancer,breast cancer,Disease
-cancer_29274927,29274927,cancer,UK Biobank,Factor
-cancer_29274927,29274927,cancer,iron,Chemical
-cancer_29274927,29274927,cancer,oestrogens,Chemical
-cancer_29274927,29274927,cancer,mutagens,Chemical
-cancer_28759385,28759385,cancer,physical activity,Factor
-cancer_28759385,28759385,cancer,sedentary behaviour,Factor
-cancer_28759385,28759385,cancer,diet,Factor
-cancer_28759385,28759385,cancer,cancer,Disease
-cancer_28759385,28759385,cancer,colorectal cancer,Disease
-cancer_28759385,28759385,cancer,advanced adenomas,Disease
-cancer_28759385,28759385,cancer,endometrial cancers,Disease
-cancer_28759385,28759385,cancer,breast cancer,Disease
-cancer_28759385,28759385,cancer,alcohol,Factor
-cancer_28759385,28759385,cancer,wholegrain,Factor
-cancer_28759385,28759385,cancer,fibre,Factor
-cancer_28759385,28759385,cancer,fruits,Factor
-cancer_28759385,28759385,cancer,vegetables,Factor
-cancer_28759385,28759385,cancer,obesity,Factor
-cancer_28759385,28759385,cancer,endometrial cancer,Disease
-cancer_28759385,28759385,cancer,post-menopausal breast cancer,Disease
-cancer_28759385,28759385,cancer,fatty liver disease,Disease
-cancer_28759385,28759385,cancer,hepatocellular carcinoma,Disease
-cancer_28759385,28759385,cancer,inflammatory state,Factor
-cancer_28759385,28759385,cancer,macrophages,Factor
-cancer_28759385,28759385,cancer,adipocytes,Factor
-cancer_28759385,28759385,cancer,aromatase,Factor
-cancer_28759385,28759385,cancer,interleukin 6,Factor
-cancer_28759385,28759385,cancer,metabolic obesity state,Factor
-cancer_28205448,28205448,cancer,red meat,Factor
-cancer_28205448,28205448,cancer,colon cancer,Disease
-cancer_28205448,28205448,cancer,colorectal cancer,Disease
-cancer_28205448,28205448,cancer,red and processed meat,Factor
-cancer_28205448,28205448,cancer,heme iron,Chemical
-cancer_28205448,28205448,cancer,heterocyclic amines,Chemical
-cancer_30993317,30993317,cancer,colorectal cancer,Disease
-cancer_30993317,30993317,cancer,red and processed meat,Factor
-cancer_30993317,30993317,cancer,fibre from bread and breakfast cereals,Factor
-cancer_30993317,30993317,cancer,alcohol,Factor
-cancer_30993317,30993317,cancer,UK Biobank,Factor
-cancer_30993317,30993317,cancer,fish,Factor
-cancer_30993317,30993317,cancer,poultry,Factor
-cancer_30993317,30993317,cancer,cheese,Factor
-cancer_30993317,30993317,cancer,fruit,Factor
-cancer_30993317,30993317,cancer,vegetables,Factor
-cancer_30993317,30993317,cancer,tea,Factor
-cancer_30993317,30993317,cancer,coffee,Factor
-cancer_35291893,35291893,cancer,meat consumption,Factor
-cancer_35291893,35291893,cancer,non-communicable diseases,Disease
-cancer_35291893,35291893,cancer,colorectal adenoma,Disease
-cancer_35291893,35291893,cancer,lung cancer,Disease
-cancer_35291893,35291893,cancer,CHD,Disease
-cancer_35291893,35291893,cancer,stroke,Disease
-cancer_35291893,35291893,cancer,ovarian cancer,Disease
-cancer_35291893,35291893,cancer,prostate cancer,Disease
-cancer_35291893,35291893,cancer,renal cancer,Disease
-cancer_35291893,35291893,cancer,stomach cancer,Disease
-cancer_35291893,35291893,cancer,colon cancer,Disease
-cancer_35291893,35291893,cancer,bladder cancer,Disease
-cancer_35291893,35291893,cancer,cardiometabolic risk,Disease
-cancer_35291893,35291893,cancer,cancer risk,Disease
-cancer_33591366,33591366,cancer,Colorectal Cancer,Disease
-cancer_33591366,33591366,cancer,Diet,Factor
-cancer_33591366,33591366,cancer,Red meat,Factor
-cancer_33591366,33591366,cancer,Alcohol,Factor
-cancer_33591366,33591366,cancer,Dietary fiber,Factor
-cancer_33591366,33591366,cancer,Calcium,Factor
-cancer_33591366,33591366,cancer,Yogurt,Factor
-cancer_33591366,33591366,cancer,Processed meat,Factor
-cancer_33591366,33591366,cancer,Whole grains,Factor
-cancer_33591366,33591366,cancer,Dietary patterns,Factor
-cancer_36541995,36541995,cancer,Breast cancer,Disease
-cancer_36541995,36541995,cancer,Exercise,Factor
-cancer_36541995,36541995,cancer,physical exercises,Factor
-cancer_36541995,36541995,cancer,sedentary behavior,Factor
-cancer_36541995,36541995,cancer,healthy body weight,Factor
-cancer_36541995,36541995,cancer,alcohol consumption,Factor
-cancer_36541995,36541995,cancer,balanced diet,Factor
-cancer_36541995,36541995,cancer,fruit,Factor
-cancer_36541995,36541995,cancer,vegetables,Factor
-cancer_36541995,36541995,cancer,grains,Factor
-cancer_36541995,36541995,cancer,fibers,Factor
-cancer_36541995,36541995,cancer,red meat,Factor
-cancer_36541995,36541995,cancer,cardiovascular diseases,Disease
-cancer_36541995,36541995,cancer,cardiovascular mortality,Disease
-cancer_36541995,36541995,cancer,all-cause mortality,Disease
-cancer_28956850,28956850,cancer,Colorectal Cancer,Disease
-cancer_28956850,28956850,cancer,Cancer,Disease
-cancer_28956850,28956850,cancer,Precision Nutrition,Factor
-cancer_28956850,28956850,cancer,Lipid Metabolism,Factor
-cancer_28956850,28956850,cancer,Genetic factors,Factor
-cancer_28956850,28956850,cancer,Environmental factors,Factor
-cancer_28956850,28956850,cancer,Red and processed meat,Chemical
-cancer_28956850,28956850,cancer,Poultry consumption,Chemical
-cancer_28956850,28956850,cancer,Fiber,Chemical
-cancer_28956850,28956850,cancer,Folate,Chemical
-cancer_28956850,28956850,cancer,Unhealthy diet,Factor
-cancer_28956850,28956850,cancer,Obesity,Disease
-cancer_28956850,28956850,cancer,Dysbiosis,Disease
-cancer_28956850,28956850,cancer,Genomic studies,Factor
-cancer_28956850,28956850,cancer,Transcriptomic studies,Factor
-cancer_28956850,28956850,cancer,Genetic variants,Factor
-cancer_28956850,28956850,cancer,Dietary components,Factor
-cancer_28956850,28956850,cancer,CRC,Disease
-cancer_33271590,33271590,cancer,Breast cancer,Disease
-cancer_33271590,33271590,cancer,red meat,Factor
-cancer_33271590,33271590,cancer,processed meat,Factor
-cancer_33271590,33271590,cancer,fish,Factor
-cancer_33271590,33271590,cancer,poultry,Factor
-cancer_33271590,33271590,cancer,egg,Factor
-cancer_33271590,33271590,cancer,vegetables,Factor
-cancer_33271590,33271590,cancer,fruit,Factor
-cancer_33271590,33271590,cancer,dairy product,Factor
-cancer_33271590,33271590,cancer,grains/cereals,Factor
-cancer_33271590,33271590,cancer,nuts,Factor
-cancer_33271590,33271590,cancer,legumes,Factor
-cancer_33271590,33271590,cancer,soy,Factor
-cancer_33271590,33271590,cancer,sugar-sweetened beverages,Factor
-cancer_33271590,33271590,cancer,milk,Factor
-cancer_33462452,33462452,cancer,γδ T cell subsets,Gene
-cancer_33462452,33462452,cancer,interferon-γ (IFN-γ),Chemical
-cancer_33462452,33462452,cancer,interleukin (IL)-17,Chemical
-cancer_33462452,33462452,cancer,glycolysis,Factor
-cancer_33462452,33462452,cancer,oxidative metabolism,Factor
-cancer_33462452,33462452,cancer,mitochondrial mass,Factor
-cancer_33462452,33462452,cancer,mitochondrial activity,Factor
-cancer_33462452,33462452,cancer,lipid uptake,Factor
-cancer_33462452,33462452,cancer,lipid storage,Factor
-cancer_33462452,33462452,cancer,obesity,Factor
-cancer_33462452,33462452,cancer,tumor growth,Disease
-cancer_33462452,33462452,cancer,cancer immunotherapy,Factor
-cancer_33462452,33462452,cancer,glucose,Chemical
-cancer_33462452,33462452,cancer,tumor,Disease
-cancer_40210826,40210826,cancer,red meat,Chemical
-cancer_40210826,40210826,cancer,processed meat,Chemical
-cancer_40210826,40210826,cancer,colorectal cancer,Disease
-cancer_40210826,40210826,cancer,colon cancer,Disease
-cancer_40210826,40210826,cancer,rectal cancer,Disease
-cancer_33909988,33909988,cancer,PD-L1,Gene
-cancer_33909988,33909988,cancer,anti-tumor immunity,Factor
-cancer_33909988,33909988,cancer,energy status,Factor
-cancer_33909988,33909988,cancer,metabolic diseases,Disease
-cancer_33909988,33909988,cancer,obesity,Disease
-cancer_33909988,33909988,cancer,diabetes,Disease
-cancer_33909988,33909988,cancer,cancer,Disease
-cancer_33909988,33909988,cancer,ketogenic-diet,Factor
-cancer_33909988,33909988,cancer,anti-CTLA-4 immunotherapy,Chemical
-cancer_33909988,33909988,cancer,type-I interferon (IFN),Chemical
-cancer_33909988,33909988,cancer,antigen presentation genes,Gene
-cancer_33909988,33909988,cancer,AMPK,Gene
-cancer_33909988,33909988,cancer,CMTM4,Gene
-cancer_33909988,33909988,cancer,EZH2,Gene
-cancer_33909988,33909988,cancer,PRC2,Gene
-cancer_33909988,33909988,cancer,syngeneic mouse tumor models,Factor
-cancer_37621241,37621241,cancer,Obesity,Factor
-cancer_37621241,37621241,cancer,Colorectal Cancer,Disease
-cancer_37621241,37621241,cancer,Insulin resistance,Factor
-cancer_37621241,37621241,cancer,Hyperinsulinemia,Factor
-cancer_37621241,37621241,cancer,Chronic inflammation,Factor
-cancer_37621241,37621241,cancer,Growth factors,Factor
-cancer_37621241,37621241,cancer,Adipocytokines,Factor
-cancer_37621241,37621241,cancer,Hormones,Factor
-cancer_37621241,37621241,cancer,Weight loss,Factor
-cancer_37621241,37621241,cancer,Dietary modification,Factor
-cancer_37621241,37621241,cancer,Physical activity,Factor
-cancer_39334498,39334498,cancer,Colorectal cancer,Disease
-cancer_39334498,39334498,cancer,diet,Factor
-cancer_39334498,39334498,cancer,red and processed meat,Factor
-cancer_39334498,39334498,cancer,dietary fibres,Factor
-cancer_39334498,39334498,cancer,gut microbiota,Factor
-cancer_39334498,39334498,cancer,PVD,Factor
-cancer_39334498,39334498,cancer,MBD,Factor
-cancer_39334498,39334498,cancer,α-tocopherol,Chemical
-cancer_39334498,39334498,cancer,AOM,Chemical
-cancer_39334498,39334498,cancer,Lachnospiraceae,Gene
-cancer_39334498,39334498,cancer,Prevotellaceae,Gene
-cancer_39334498,39334498,cancer,nonconjugated bile acids,Chemical
-cancer_39779669,39779669,cancer,colorectal cancer,Disease
-cancer_39779669,39779669,cancer,diet,Factor
-cancer_39779669,39779669,cancer,UK,Factor
-cancer_39779669,39779669,cancer,Alcohol,Factor
-cancer_39779669,39779669,cancer,calcium,Chemical
-cancer_39779669,39779669,cancer,dairy-related factors,Factor
-cancer_39779669,39779669,cancer,red and processed meat,Factor
-cancer_39779669,39779669,cancer,breakfast cereal,Factor
-cancer_39779669,39779669,cancer,fruit,Factor
-cancer_39779669,39779669,cancer,wholegrains,Factor
-cancer_39779669,39779669,cancer,carbohydrates,Factor
-cancer_39779669,39779669,cancer,fibre,Factor
-cancer_39779669,39779669,cancer,total sugars,Factor
-cancer_39779669,39779669,cancer,folate,Chemical
-cancer_39779669,39779669,cancer,vitamin C,Chemical
-cancer_39779669,39779669,cancer,milk,Chemical
-cancer_39779669,39779669,cancer,ColoRectal Transdisciplinary Study,Factor
-cancer_39779669,39779669,cancer,Colon Cancer Family Registry,Factor
-cancer_39779669,39779669,cancer,Genetics and Epidemiology of Colorectal Cancer Consortium (GECCO),Factor
-cancer_25619144,25619144,cancer,Colorectal cancer,Disease
-cancer_25619144,25619144,cancer,diet,Factor
-cancer_25619144,25619144,cancer,obesity,Factor
-cancer_25619144,25619144,cancer,physical activity,Factor
-cancer_25619144,25619144,cancer,red meat,Factor
-cancer_25619144,25619144,cancer,fish,Factor
-cancer_25619144,25619144,cancer,garlic,Factor
-cancer_25619144,25619144,cancer,fiber,Factor
-cancer_25619144,25619144,cancer,milk,Factor
-cancer_25619144,25619144,cancer,alcohol,Factor
-cancer_25619144,25619144,cancer,smoking,Factor
-cancer_25619144,25619144,cancer,alcoholic beverage,Factor
-cancer_34140290,34140290,cancer,Colorectal cancer,Disease
-cancer_34140290,34140290,cancer,red meat,Factor
-cancer_34140290,34140290,cancer,KRAS,Gene
-cancer_34140290,34140290,cancer,PIK3CA,Gene
-cancer_34140290,34140290,cancer,alkylating signature,Factor
-cancer_37621240,37621240,cancer,Colorectal cancer,Disease
-cancer_37621240,37621240,cancer,obesity,Factor
-cancer_37621240,37621240,cancer,high-fat diet,Factor
-cancer_37621240,37621240,cancer,red meat,Factor
-cancer_37621240,37621240,cancer,processed meat,Factor
-cancer_37621240,37621240,cancer,alcohol,Factor
-cancer_37621240,37621240,cancer,gut microbiota,Factor
-cancer_34148612,34148612,cancer,colorectal cancer,Disease
-cancer_34148612,34148612,cancer,diet,Factor
-cancer_34148612,34148612,cancer,lifestyle,Factor
-cancer_34148612,34148612,cancer,body weight,Factor
-cancer_34148612,34148612,cancer,fiber,Factor
-cancer_34148612,34148612,cancer,red and processed meat,Factor
-cancer_34148612,34148612,cancer,coffee,Factor
-cancer_32019626,32019626,cancer,colorectal cancer,Disease
-cancer_32019626,32019626,cancer,CRC,Disease
-cancer_32019626,32019626,cancer,diet,Factor
-cancer_32019626,32019626,cancer,body fatness,Factor
-cancer_32019626,32019626,cancer,wholegrains,Factor
-cancer_32019626,32019626,cancer,fibre,Factor
-cancer_32019626,32019626,cancer,red and processed meat,Factor
-cancer_32019626,32019626,cancer,alcohol,Factor
-cancer_32019626,32019626,cancer,calcium,Chemical
-cancer_32019626,32019626,cancer,vitamin D,Chemical
-cancer_32019626,32019626,cancer,n-3 fatty acid EPA,Chemical
-cancer_32019626,32019626,cancer,obesity,Factor
-cancer_32019626,32019626,cancer,Roux-en-Y gastric bypass,Factor
-cancer_32019626,32019626,cancer,nutritional therapy,Factor
-cancer_32019626,32019626,cancer,cancer interception,Factor
-cancer_32019626,32019626,cancer,intestinal microbiota,Factor
-cancer_32019626,32019626,cancer,precision medicine,Factor
-cancer_32001714,32001714,cancer,Physical activity,Factor
-cancer_32001714,32001714,cancer,breast cancer,Disease
-cancer_32001714,32001714,cancer,colorectal cancer,Disease
-cancer_32001714,32001714,cancer,Mendelian randomisation,Factor
-cancer_29496088,29496088,cancer,Colon Cancer,Disease
-cancer_29496088,29496088,cancer,colorectal cancer,Disease
-cancer_29496088,29496088,cancer,CRC,Disease
-cancer_29496088,29496088,cancer,Oceania,Factor
-cancer_29496088,29496088,cancer,Europe,Factor
-cancer_29496088,29496088,cancer,Africa,Factor
-cancer_29496088,29496088,cancer,Asia,Factor
-cancer_29496088,29496088,cancer,healthy lifestyle,Factor
-cancer_29496088,29496088,cancer,healthy diet,Factor
-cancer_29496088,29496088,cancer,physical activity,Factor
-cancer_29496088,29496088,cancer,obesity,Factor
-cancer_29496088,29496088,cancer,red/processed meat,Factor
-cancer_29496088,29496088,cancer,fibers,Factor
-cancer_29496088,29496088,cancer,whole grains,Factor
-cancer_29496088,29496088,cancer,cereals,Factor
-cancer_29496088,29496088,cancer,fruit,Factor
-cancer_29496088,29496088,cancer,vegetables,Factor
-cancer_29478430,29478430,cancer,breast cancer,Disease
-cancer_29478430,29478430,cancer,Weight,Factor
-cancer_29478430,29478430,cancer,physical activity,Factor
-cancer_35504785,35504785,cancer,Colorectal Cancer,Disease
-cancer_35504785,35504785,cancer,Diet,Factor
-cancer_35504785,35504785,cancer,Exercise,Factor
-cancer_29763272,29763272,cancer,Colorectal Cancer,Disease
-cancer_29763272,29763272,cancer,adenomatous polyps,Disease
-cancer_29763272,29763272,cancer,guaiac-based fecal occult blood tests,Chemical
-cancer_29763272,29763272,cancer,flexible sigmoidoscopy,Chemical
-cancer_29763272,29763272,cancer,colonoscopy,Chemical
-cancer_29763272,29763272,cancer,fecal immunochemical testing,Chemical
-cancer_29763272,29763272,cancer,computed tomographic colonography,Chemical
-cancer_29763272,29763272,cancer,multitargeted stool DNA testing,Chemical
-cancer_29763272,29763272,cancer,,Factor
-cancer_29763272,29763272,cancer,aspirin,Chemical
-cancer_29763272,29763272,cancer,nonsteroidal anti-inflammatory drugs,Chemical
-cancer_29763272,29763272,cancer,cyclooxygenase-2 inhibitors,Chemical
-cancer_29763272,29763272,cancer,hormone therapy,Chemical
-cancer_29763272,29763272,cancer,calcium supplementation,Factor
-cancer_29763272,29763272,cancer,moderate dairy consumption,Factor
-cancer_29763272,29763272,cancer,reduced red meat consumption,Factor
-cancer_29763272,29763272,cancer,increased physical activity,Factor
-cancer_29763272,29763272,cancer,decreased body mass index,Factor
-cancer_29763272,29763272,cancer,statin use,Factor
-cancer_29763272,29763272,cancer,increased alcohol intake,Factor
-cancer_29763272,29763272,cancer,tobacco use,Factor
-cancer_39202500,39202500,cancer,Obesity,Factor
-cancer_39202500,39202500,cancer,Colorectal Cancer,Disease
-cancer_39202500,39202500,cancer,CRC,Disease
-cancer_39202500,39202500,cancer,TNF-alpha,Chemical
-cancer_39202500,39202500,cancer,interleukin-6,Chemical
-cancer_39202500,39202500,cancer,C-reactive protein,Chemical
-cancer_39202500,39202500,cancer,dietary modification,Factor
-cancer_39202500,39202500,cancer,calorie restriction,Factor
-cancer_39202500,39202500,cancer,weight-control strategies,Factor
-cancer_28992860,28992860,cancer,Diet,Factor
-cancer_28992860,28992860,cancer,Physical Activity,Factor
-cancer_28992860,28992860,cancer,Body Weight,Factor
-cancer_28992860,28992860,cancer,Cancer Survivorship,Disease
-cancer_28992860,28992860,cancer,Cancer Recurrence,Disease
-cancer_29210053,29210053,cancer,colorectal cancer,Disease
-cancer_29210053,29210053,cancer,whole grains,Factor
-cancer_29210053,29210053,cancer,refined grains,Factor
-cancer_29210053,29210053,cancer,vegetables,Factor
-cancer_29210053,29210053,cancer,fruit,Factor
-cancer_29210053,29210053,cancer,nuts,Factor
-cancer_29210053,29210053,cancer,legumes,Factor
-cancer_29210053,29210053,cancer,eggs,Factor
-cancer_29210053,29210053,cancer,dairy,Factor
-cancer_29210053,29210053,cancer,fish,Factor
-cancer_29210053,29210053,cancer,red meat,Factor
-cancer_29210053,29210053,cancer,processed meat,Factor
-cancer_29210053,29210053,cancer,sugar-sweetened beverages,Factor
-cancer_25540232,25540232,cancer,gastrointestinal microbiota,Factor
-cancer_25540232,25540232,cancer,colorectal cancer,Disease
-cancer_25540232,25540232,cancer,inflammatory bowel diseases,Disease
-cancer_25540232,25540232,cancer,obesity,Disease
-cancer_25540232,25540232,cancer,diet,Factor
-cancer_25540232,25540232,cancer,inflammation,Factor
-cancer_27989995,27989995,cancer,cancer,Disease
-cancer_27989995,27989995,cancer,meat,Factor
-cancer_27989995,27989995,cancer,meat products,Factor
-cancer_27989995,27989995,cancer,processed meat products,Factor
-cancer_27989995,27989995,cancer,red meat,Factor
-cancer_27989995,27989995,cancer,colorectal cancer,Disease
-cancer_27989995,27989995,cancer,International Agency for Research on Cancer (IARC),Factor
-cancer_35760086,35760086,cancer,Western-Style Diet,Factor
-cancer_35760086,35760086,cancer,pks Island-Carrying Escherichia coli,Factor
-cancer_35760086,35760086,cancer,Colorectal Cancer,Disease
-cancer_35760086,35760086,cancer,pks<sup>+</sup>E coli,Factor
-cancer_27128451,27128451,cancer,Red meat,Factor
-cancer_27128451,27128451,cancer,type 2 diabetes,Disease
-cancer_27128451,27128451,cancer,colorectal cancer,Disease
-cancer_27128451,27128451,cancer,cardiovascular diseases,Disease
-cancer_27128451,27128451,cancer,all-cause mortality,Disease
-cancer_27128451,27128451,cancer,fish,Factor
-cancer_27128451,27128451,cancer,nuts,Factor
-cancer_27128451,27128451,cancer,vegetables,Factor
-cancer_27128451,27128451,cancer,fruits,Factor
-cancer_27128451,27128451,cancer,pulses and legumes,Factor
-cancer_27128451,27128451,cancer,whole grains,Factor
-cancer_27128451,27128451,cancer,dairy products,Factor
-cancer_31233770,31233770,cancer,Colorectal cancer,Disease
-cancer_31233770,31233770,cancer,physical inactivity,Factor
-cancer_31233770,31233770,cancer,obesity,Factor
-cancer_31233770,31233770,cancer,red/processed meats,Factor
-cancer_31233770,31233770,cancer,alcohol,Factor
-cancer_31233770,31233770,cancer,healthy lifestyle habits,Factor
-cancer_33885236,33885236,cancer,Physical activity,Factor
-cancer_33885236,33885236,cancer,cancer,Disease
-cancer_33885236,33885236,cancer,colon cancer,Disease
-cancer_33885236,33885236,cancer,breast cancer,Disease
+pub_35361331,35361331,cancer,Colorectal Polyps,Disease
+pub_35361331,35361331,cancer,Colorectal cancer,Disease
+pub_35361331,35361331,cancer,CRC,Disease
+pub_35361331,35361331,cancer,adenomatous polyps,Disease
+pub_35361331,35361331,cancer,serrated polyps,Disease
+pub_35361331,35361331,cancer,age,Factor
+pub_35361331,35361331,cancer,male sex,Factor
+pub_35361331,35361331,cancer,family history,Factor
+pub_35361331,35361331,cancer,obesity,Factor
+pub_35361331,35361331,cancer,physical inactivity,Factor
+pub_35361331,35361331,cancer,red meat intake,Factor
+pub_35361331,35361331,cancer,White race,Factor
+pub_35361331,35361331,cancer,tobacco use,Factor
+pub_35361331,35361331,cancer,alcohol use,Factor
+pub_35361331,35361331,cancer,abdominopelvic radiation,Factor
+pub_35361331,35361331,cancer,acromegaly,Disease
+pub_35361331,35361331,cancer,hereditary hemochromatosis,Disease
+pub_35361331,35361331,cancer,ureterosigmoidostomy,Disease
+pub_37743572,37743572,cancer,Physical activity,Factor
+pub_37743572,37743572,cancer,cancer,Disease
+pub_37743572,37743572,cancer,breast cancer,Disease
+pub_37743572,37743572,cancer,colon cancer,Disease
+pub_37743572,37743572,cancer,lung cancer,Disease
+pub_37743572,37743572,cancer,gastric cancer,Disease
+pub_37743572,37743572,cancer,liver cancer,Disease
+pub_37743572,37743572,cancer,Global Burden of Disease Study 2019,Factor
+pub_37743572,37743572,cancer,healthy lifestyle,Factor
+pub_37743572,37743572,cancer,PubMed,Chemical
+pub_37743572,37743572,cancer,Embase,Chemical
+pub_37743572,37743572,cancer,US National Health and Nutrition Examination Surveys (NHANES),Chemical
+pub_37743572,37743572,cancer,Global Burden of Disease 2019 database,Chemical
+pub_37743572,37743572,cancer,MET-minutes/week,Chemical
+pub_37743572,37743572,cancer,inactive population,Factor
+pub_37743572,37743572,cancer,insufficient activity,Factor
+pub_37743572,37743572,cancer,high levels of activity,Factor
+pub_35057525,35057525,cancer,Cancer,Disease
+pub_35057525,35057525,cancer,high-income countries,Factor
+pub_35057525,35057525,cancer,breast,Disease
+pub_35057525,35057525,cancer,colon,Disease
+pub_35057525,35057525,cancer,prostate cancers,Disease
+pub_35057525,35057525,cancer,dietary patterns,Factor
+pub_35057525,35057525,cancer,diet interventions,Chemical
+pub_35057525,35057525,cancer,randomised controlled trials,Factor
+pub_35057525,35057525,cancer,PubMed,Chemical
+pub_35057525,35057525,cancer,prospective cohort studies,Factor
+pub_35057525,35057525,cancer,RCT,Factor
+pub_35057525,35057525,cancer,Mediterranean diet,Chemical
+pub_35057525,35057525,cancer,overall diet quality,Factor
+pub_35057525,35057525,cancer,overall mortality,Factor
+pub_35057525,35057525,cancer,dietary interventions,Chemical
+pub_35057525,35057525,cancer,physical activity,Factor
+pub_35057525,35057525,cancer,breast cancer survivors,Disease
+pub_35057525,35057525,cancer,colorectal cancer survivors,Disease
+pub_35057525,35057525,cancer,prostate cancer survivors,Disease
+pub_35057525,35057525,cancer,meta-analysis,Chemical
+pub_35057525,35057525,cancer,random-effects model,Chemical
+pub_35057525,35057525,cancer,overall quality of life,Factor
+pub_33518157,33518157,cancer,Colorectal Cancer,Disease
+pub_33518157,33518157,cancer,diet,Factor
+pub_25651787,25651787,cancer,Cancer,Disease
+pub_25651787,25651787,cancer,lung cancer,Disease
+pub_25651787,25651787,cancer,breast cancer,Disease
+pub_25651787,25651787,cancer,colorectal cancer,Disease
+pub_25651787,25651787,cancer,prostate cancer,Disease
+pub_25651787,25651787,cancer,liver cancer,Disease
+pub_25651787,25651787,cancer,stomach cancer,Disease
+pub_25651787,25651787,cancer,cervical cancer,Disease
+pub_25651787,25651787,cancer,tobacco use,Factor
+pub_25651787,25651787,cancer,overweight/obesity,Factor
+pub_25651787,25651787,cancer,physical inactivity,Factor
+pub_25651787,25651787,cancer,infection,Factor
+pub_25575572,25575572,cancer,Nutrients,Chemical
+pub_25575572,25575572,cancer,foods,Chemical
+pub_25575572,25575572,cancer,colorectal cancer,Disease
+pub_25575572,25575572,cancer,diet,Factor
+pub_25575572,25575572,cancer,colorectal neoplasia,Disease
+pub_25575572,25575572,cancer,Calcium,Chemical
+pub_25575572,25575572,cancer,fiber,Chemical
+pub_25575572,25575572,cancer,milk,Chemical
+pub_25575572,25575572,cancer,whole grains,Chemical
+pub_25575572,25575572,cancer,red meat,Chemical
+pub_25575572,25575572,cancer,processed meat,Chemical
+pub_25575572,25575572,cancer,vitamin D,Chemical
+pub_25575572,25575572,cancer,folate,Chemical
+pub_25575572,25575572,cancer,fruits,Chemical
+pub_25575572,25575572,cancer,vegetables,Chemical
+pub_25575572,25575572,cancer,dietary pattern,Factor
+pub_25575572,25575572,cancer,immune responsiveness,Factor
+pub_25575572,25575572,cancer,inflammation,Factor
+pub_25575572,25575572,cancer,overnutrition,Factor
+pub_25575572,25575572,cancer,obesity,Factor
+pub_25575572,25575572,cancer,gut microbiota,Chemical
+pub_37847493,37847493,cancer,Breast Cancer,Disease
+pub_37847493,37847493,cancer,DIANA-5,Disease
+pub_37847493,37847493,cancer,estrogen receptor-negative cancer,Disease
+pub_37847493,37847493,cancer,metabolic syndrome,Disease
+pub_37847493,37847493,cancer,insulin,Chemical
+pub_37847493,37847493,cancer,testosterone,Chemical
+pub_37847493,37847493,cancer,Mediterranean diet,Chemical
+pub_37847493,37847493,cancer,macrobiotic diet,Chemical
+pub_37847493,37847493,cancer,macro-Mediterranean diet,Chemical
+pub_37847493,37847493,cancer,American Institute for Cancer Research/World Cancer Research Fund,Factor
+pub_37847493,37847493,cancer,whole grain cereals,Chemical
+pub_37929890,37929890,cancer,Breast cancer,Disease
+pub_37929890,37929890,cancer,Tumor,Disease
+pub_37929890,37929890,cancer,weight gain,Factor
+pub_37929890,37929890,cancer,adipose tissue,Chemical
+pub_37929890,37929890,cancer,waist circumference,Factor
+pub_37929890,37929890,cancer,alcohol consumption,Factor
+pub_37929890,37929890,cancer,red meat,Chemical
+pub_37929890,37929890,cancer,processed meat,Chemical
+pub_37929890,37929890,cancer,eating fruits and vegetables,Factor
+pub_31586566,31586566,cancer,Colorectal Cancer,Disease
+pub_31586566,31586566,cancer,intestinal microbiome,Factor
+pub_31586566,31586566,cancer,microbes,Gene
+pub_31586566,31586566,cancer,signaling pathways,Gene
+pub_31586566,31586566,cancer,microbiota-related metabolites,Chemical
+pub_31586566,31586566,cancer,overweight and obesity,Factor
+pub_31586566,31586566,cancer,physical activity,Factor
+pub_31586566,31586566,cancer,fiber,Chemical
+pub_31586566,31586566,cancer,whole grains,Chemical
+pub_31586566,31586566,cancer,red and processed meat,Chemical
+pub_31586566,31586566,cancer,CRC,Disease
+pub_31586566,31586566,cancer,metabolic pathways,Gene
+pub_31586566,31586566,cancer,immune pathways,Gene
+pub_31586566,31586566,cancer,CRC screening,Chemical
+pub_31586566,31586566,cancer,chemoprevention,Chemical
+pub_31586566,31586566,cancer,treatment,Chemical
+pub_26780279,26780279,cancer,Meat Consumption,Factor
+pub_26780279,26780279,cancer,red meat,Chemical
+pub_26780279,26780279,cancer,processed meat,Chemical
+pub_26780279,26780279,cancer,total mortality,Disease
+pub_26780279,26780279,cancer,cardiovascular disease,Disease
+pub_26780279,26780279,cancer,colorectal cancer,Disease
+pub_26780279,26780279,cancer,type 2 diabetes,Disease
+pub_26780279,26780279,cancer,age,Factor
+pub_26780279,26780279,cancer,race,Factor
+pub_26780279,26780279,cancer,BMI,Factor
+pub_26780279,26780279,cancer,smoking,Factor
+pub_26780279,26780279,cancer,blood pressure,Chemical
+pub_26780279,26780279,cancer,lipids,Chemical
+pub_26780279,26780279,cancer,physical activity,Factor
+pub_26780279,26780279,cancer,multiple nutritional parameters,Factor
+pub_26780279,26780279,cancer,white meat,Chemical
+pub_26780279,26780279,cancer,unprocessed red meat,Chemical
+pub_26780279,26780279,cancer,processed red meat,Chemical
+pub_26780279,26780279,cancer,protein supply,Chemical
+pub_28935150,28935150,cancer,Mediterranean diet,Factor
+pub_28935150,28935150,cancer,colorectal cancer,Disease
+pub_28935150,28935150,cancer,Western society,Factor
+pub_28935150,28935150,cancer,red and processed meat,Factor
+pub_28935150,28935150,cancer,Mediterranean coast,Factor
+pub_28935150,28935150,cancer,olive oil,Chemical
+pub_28935150,28935150,cancer,red wine,Chemical
+pub_28935150,28935150,cancer,tomatoes,Chemical
+pub_28935150,28935150,cancer,resveratrol,Gene
+pub_28935150,28935150,cancer,lycopene,Gene
+pub_28935150,28935150,cancer,cancer,Disease
+pub_28935150,28935150,cancer,chemoprevention,Chemical
+pub_28935150,28935150,cancer,oncologic treatment,Chemical
+pub_34789537,34789537,cancer,Fasting-Mimicking Diet,Chemical
+pub_34789537,34789537,cancer,tumor,Disease
+pub_34789537,34789537,cancer,antineoplastic treatments,Chemical
+pub_34789537,34789537,cancer,systemic metabolism,Chemical
+pub_34789537,34789537,cancer,antitumor immunity,Chemical
+pub_34789537,34789537,cancer,cyclic,Factor
+pub_34789537,34789537,cancer,five-day FMD,Chemical
+pub_34789537,34789537,cancer,standard antitumor therapies,Chemical
+pub_34789537,34789537,cancer,blood glucose,Chemical
+pub_34789537,34789537,cancer,growth factor,Gene
+pub_34789537,34789537,cancer,transcriptomic,Factor
+pub_34789537,34789537,cancer,deep-phenotyping,Factor
+pub_34789537,34789537,cancer,peripheral blood immunosuppressive myeloid,Gene
+pub_34789537,34789537,cancer,regulatory T-cell compartments,Gene
+pub_34789537,34789537,cancer,intratumor Th1/cytotoxic responses,Gene
+pub_34789537,34789537,cancer,IFNγ,Gene
+pub_34789537,34789537,cancer,Phase II/III clinical trials,Factor
+pub_34789537,34789537,cancer,antitumor efficacy,Chemical
+pub_34789537,34789537,cancer,concomitant antitumor therapies,Chemical
+pub_30031175,30031175,cancer,Colorectal Cancer,Disease
+pub_30031175,30031175,cancer,Environmental Factors,Factor
+pub_30031175,30031175,cancer,Gut Microbiota,Factor
+pub_30031175,30031175,cancer,lifestyle modification,Factor
+pub_30031175,30031175,cancer,dietary factors,Factor
+pub_30031175,30031175,cancer,overweight and obesity,Factor
+pub_30031175,30031175,cancer,physical activity,Factor
+pub_30031175,30031175,cancer,dietary patterns,Factor
+pub_30031175,30031175,cancer,fiber,Chemical
+pub_30031175,30031175,cancer,red and processed meat,Chemical
+pub_30031175,30031175,cancer,marine omega-3 fatty acid,Chemical
+pub_30031175,30031175,cancer,alcohol,Chemical
+pub_30031175,30031175,cancer,smoking,Factor
+pub_30031175,30031175,cancer,vitamin D status,Factor
+pub_30031175,30031175,cancer,dairy consumption,Factor
+pub_30031175,30031175,cancer,metformin,Chemical
+pub_33401525,33401525,cancer,Colorectal Carcinogenesis,Disease
+pub_33401525,33401525,cancer,colorectal cancer,Disease
+pub_33401525,33401525,cancer,CRC,Disease
+pub_33401525,33401525,cancer,genetic,Factor
+pub_33401525,33401525,cancer,environmental,Factor
+pub_33401525,33401525,cancer,diet,Factor
+pub_33401525,33401525,cancer,lifestyle,Factor
+pub_33401525,33401525,cancer,Western diet,Chemical
+pub_33401525,33401525,cancer,fat,Chemical
+pub_33401525,33401525,cancer,red meat,Chemical
+pub_33401525,33401525,cancer,processed meat,Chemical
+pub_33401525,33401525,cancer,dietary fiber,Chemical
+pub_33401525,33401525,cancer,vitamin C,Chemical
+pub_33401525,33401525,cancer,vitamin E,Chemical
+pub_33401525,33401525,cancer,butyrate,Chemical
+pub_33401525,33401525,cancer,vitamin D,Chemical
+pub_33401525,33401525,cancer,selenium,Chemical
+pub_33401525,33401525,cancer,calcium,Chemical
+pub_33401525,33401525,cancer,gut microbiota,Factor
+pub_33401525,33401525,cancer,colonic epithelial cell homeostasis,Disease
+pub_33401525,33401525,cancer,carcinogenesis,Disease
+pub_33401525,33401525,cancer,colorectal malignancies,Disease
+pub_27510511,27510511,cancer,Physical activity,Factor
+pub_27510511,27510511,cancer,breast cancer,Disease
+pub_27510511,27510511,cancer,colon cancer,Disease
+pub_27510511,27510511,cancer,diabetes,Disease
+pub_27510511,27510511,cancer,ischemic heart disease,Disease
+pub_27510511,27510511,cancer,ischemic stroke,Disease
+pub_27510511,27510511,cancer,metabolic equivalent (MET),Chemical
+pub_27510511,27510511,cancer,MET minutes/week,Chemical
+pub_27510511,27510511,cancer,total activity,Factor
+pub_35000418,35000418,cancer,Colorectal Cancer,Disease
+pub_35000418,35000418,cancer,Colon,Disease
+pub_35000418,35000418,cancer,Rectum,Disease
+pub_35000418,35000418,cancer,World Health Organization,Factor
+pub_35000418,35000418,cancer,age,Factor
+pub_35000418,35000418,cancer,hereditary factors,Factor
+pub_35000418,35000418,cancer,environmental factors,Factor
+pub_35000418,35000418,cancer,lifestyle factors,Factor
+pub_35000418,35000418,cancer,case-control study,Factor
+pub_35000418,35000418,cancer,Clinical Oncology Centre,Factor
+pub_35000418,35000418,cancer,Provincial Hospital,Factor
+pub_35000418,35000418,cancer,BMI,Factor
+pub_35000418,35000418,cancer,ANOVA,Factor
+pub_35000418,35000418,cancer,ulcerative colitis,Disease
+pub_35000418,35000418,cancer,Obesity,Factor
+pub_35000418,35000418,cancer,physical activity,Factor
+pub_35000418,35000418,cancer,smoking,Factor
+pub_35000418,35000418,cancer,salt,Chemical
+pub_35000418,35000418,cancer,red meat,Chemical
+pub_28759385,28759385,cancer,Physical activity,Factor
+pub_28759385,28759385,cancer,sedentary behaviour,Factor
+pub_28759385,28759385,cancer,diet,Factor
+pub_28759385,28759385,cancer,cancer,Disease
+pub_28759385,28759385,cancer,colorectal cancer,Disease
+pub_28759385,28759385,cancer,advanced adenomas,Disease
+pub_28759385,28759385,cancer,endometrial cancers,Disease
+pub_28759385,28759385,cancer,breast cancer,Disease
+pub_28759385,28759385,cancer,alcohol,Chemical
+pub_28759385,28759385,cancer,wholegrain,Chemical
+pub_28759385,28759385,cancer,fibre,Chemical
+pub_28759385,28759385,cancer,fruits,Chemical
+pub_28759385,28759385,cancer,vegetables,Chemical
+pub_28759385,28759385,cancer,Obesity,Factor
+pub_28759385,28759385,cancer,endometrial cancer,Disease
+pub_28759385,28759385,cancer,post-menopausal breast cancer,Disease
+pub_28759385,28759385,cancer,fatty liver disease,Disease
+pub_28759385,28759385,cancer,hepatocellular carcinoma,Disease
+pub_28759385,28759385,cancer,inflammatory state,Factor
+pub_28759385,28759385,cancer,macrophages,Gene
+pub_28759385,28759385,cancer,adipocytes,Gene
+pub_28759385,28759385,cancer,aromatase,Gene
+pub_28759385,28759385,cancer,interleukin 6,Gene
+pub_28759385,28759385,cancer,physical activity,Factor
+pub_28759385,28759385,cancer,dietary factors,Factor
+pub_28759385,28759385,cancer,immunity,Factor
+pub_28759385,28759385,cancer,inflammation,Factor
+pub_28759385,28759385,cancer,extracellular matrix mechanics,Factor
+pub_28759385,28759385,cancer,epigenetic,Factor
+pub_28759385,28759385,cancer,transcriptional regulation,Factor
+pub_28759385,28759385,cancer,protein translation,Factor
+pub_28759385,28759385,cancer,circadian disruption,Factor
+pub_28759385,28759385,cancer,multibiome,Factor
+pub_28759385,28759385,cancer,lifestyle factors,Factor
+pub_28205448,28205448,cancer,red meat,Factor
+pub_28205448,28205448,cancer,colon cancer,Disease
+pub_28205448,28205448,cancer,colorectal cancer,Disease
+pub_28205448,28205448,cancer,heme iron,Chemical
+pub_28205448,28205448,cancer,heterocyclic amines,Chemical
+pub_28205448,28205448,cancer,westernized diet,Factor
+pub_28205448,28205448,cancer,fruits,Factor
+pub_28205448,28205448,cancer,vegetables,Factor
+pub_28205448,28205448,cancer,whole grains,Factor
+pub_28205448,28205448,cancer,meat,Chemical
+pub_28205448,28205448,cancer,meat-derived compounds,Chemical
+pub_30993317,30993317,cancer,colorectal cancer,Disease
+pub_30993317,30993317,cancer,UK Biobank,Factor
+pub_30993317,30993317,cancer,diet,Factor
+pub_30993317,30993317,cancer,Cox-regression models,Chemical
+pub_30993317,30993317,cancer,hazard ratios,Chemical
+pub_30993317,30993317,cancer,red and processed meat,Chemical
+pub_30993317,30993317,cancer,fibre from bread and breakfast cereals,Chemical
+pub_30993317,30993317,cancer,alcohol,Chemical
+pub_30993317,30993317,cancer,fish,Chemical
+pub_30993317,30993317,cancer,poultry,Chemical
+pub_30993317,30993317,cancer,cheese,Chemical
+pub_30993317,30993317,cancer,fruit,Chemical
+pub_30993317,30993317,cancer,vegetables,Chemical
+pub_30993317,30993317,cancer,tea,Chemical
+pub_30993317,30993317,cancer,coffee,Chemical
+pub_30993317,30993317,cancer,UK government,Factor

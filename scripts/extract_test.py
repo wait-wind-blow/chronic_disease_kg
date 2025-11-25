@@ -12,12 +12,13 @@ BASE_URL = "https://api.apiyi.com/v1"  # 必须确认这个地址！
 MODEL_NAME = "claude-3-5-sonnet-20240620"
 
 # 输入和输出文件
-INPUT_FILE = "medical_data.xlsx"  # 你的金标准表格文件名
+INPUT_FILE = r"E:\project\chronic_disease_kg\data\gold_standard\gold_standard_to_annotate.xlsx"   # 你的金标准表格文件名
 OUTPUT_FILE = "medical_data_result.xlsx"
-TEXT_COLUMN = "content"  # Excel 中存放原文的列名
+TEXT_COLUMN = "text"  # Excel 中存放原文的列名
 
 # 初始化客户端
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+
 
 
 # ================= Prompt 定义 =================
